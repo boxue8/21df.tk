@@ -9,10 +9,11 @@ module.exports = {
     themeConfig: {
       sidebar: [
           '/',
-          '/cs.md',
+          '/1-6-1.md',
       ],
       contributorsText: '贡献者',
       lastUpdatedText: '上次更新',
+      selector: ':not(a) > img',
     },
     plugins: [
       [
