@@ -11,6 +11,8 @@ module.exports = {
           '/',
           '/cs.md',
       ],
+      contributorsText: '贡献者',
+      lastUpdatedText: '上次更新',
     },
     plugins: [
       [
