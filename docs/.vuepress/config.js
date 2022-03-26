@@ -10,6 +10,7 @@ module.exports = {
       sidebar: [
           '/',
           '/1-6-1.md',
+          '/2-1-1.md',
       ],
       contributorsText: '贡献者',
       lastUpdatedText: '上次更新',
