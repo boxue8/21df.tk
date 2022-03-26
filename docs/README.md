@@ -27,5 +27,12 @@
 		alert("Web前端开发工程师就业前景好、待遇高！"); 
 <script>
 ```
-#### 效果：
 <a href="tishi.html" target="view_window">点击查看网站弹出提示效果</a>
+
+## 超链接
+#### 示例：
+```
+<a href="https://www.baidu.com">百度</a>
+```
+#### 效果：
+<iframe src="a.html" frameBorder="0" width="50" scrolling="no" height="30"></iframe>
