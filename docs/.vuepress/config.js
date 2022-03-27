@@ -11,6 +11,7 @@ module.exports = {
           '/',
           '/html/1.md',
           '/html/2.md',
+          '/html/3.md',
       ],
       contributorsText: '贡献者',
       lastUpdatedText: '上次更新',
