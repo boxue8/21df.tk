@@ -9,9 +9,8 @@ module.exports = {
     themeConfig: {
       sidebar: [
           '/',
-          '/1/1-6-1.md',
-          '/2/2-1-1.md',
-          '/2/2-2-1.md',
+          '/html/1.md',
+          '/html/2.md',
       ],
       contributorsText: '贡献者',
       lastUpdatedText: '上次更新',
