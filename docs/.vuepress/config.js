@@ -13,6 +13,7 @@ module.exports = {
           '/html/2.md',
           '/html/3.md',
           '/html/4.md',
+          '/html/5.md',
       ],
       contributorsText: '贡献者',
       lastUpdatedText: '上次更新',
