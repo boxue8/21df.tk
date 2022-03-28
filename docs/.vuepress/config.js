@@ -21,12 +21,18 @@ module.exports = {
     },
     plugins: [
       [
-        '@vuepress/plugin-search',
+        '@vuepress/docsearch',
         {
-          getExtraFields: (page) => page.frontmatter.tags ?? [],
+          apiKey: '2c788e2b42bdbc2ee252387965b155f3',
+          indexName: 'netlify_d01ed388-547b-4cd7-8dca-0b0b6e79b6fd_main_all',
           locales: {
             '/': {
-              placeholder: '搜索',
+              placeholder: '搜索文档',
+              translations: {
+                button: {
+                  buttonText: '搜索文档',
+                },
+              },
             },
           },
         },
