@@ -23,6 +23,7 @@ module.exports = {
       [
         '@vuepress/docsearch',
         {
+          appId: '8TOOHQQBSF',
           apiKey: '3cef4633585b81a2ac365c450f073d9f',
           indexName: 'netlify_d01ed388-547b-4cd7-8dca-0b0b6e79b6fd_main_all',
           locales: {
