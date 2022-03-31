@@ -1,3 +1,5 @@
+const { copyCode } = require("vuepress-plugin-copy-code2");
+
 module.exports = {
     // 站点配置
     lang: 'zh-CN',
@@ -20,6 +22,9 @@ module.exports = {
       selector: ':not(a) > img',
     },
     plugins: [
+      copyCode({
+        showInMobile: 'true',
+      }),
       [
         '@vuepress/docsearch',
         {
