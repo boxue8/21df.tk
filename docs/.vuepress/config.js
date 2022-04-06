@@ -25,5 +25,15 @@ module.exports = {
       copyCode({
         showInMobile: 'true',
       }),
+      [
+        '@vuepress/plugin-search',
+        {
+          locales: {
+            '/': {
+              placeholder: '搜索',
+            },
+          },  
+        },
+      ],
     ],
   }
