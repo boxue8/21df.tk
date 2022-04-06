@@ -25,23 +25,5 @@ module.exports = {
       copyCode({
         showInMobile: 'true',
       }),
-      [
-        '@vuepress/docsearch',
-        {
-          appId: '41AQTVSQSL',
-          apiKey: '5a74c583a934ead06d9b19ecfc64327f',
-          indexName: 'netlify_d01ed388-547b-4cd7-8dca-0b0b6e79b6fd_main_all',
-          locales: {
-            '/': {
-              placeholder: '搜索文档',
-              translations: {
-                button: {
-                  buttonText: '搜索文档',
-                },
-              },
-            },
-          },
-        },
-      ],
     ],
   }
