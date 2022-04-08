@@ -1,4 +1,5 @@
 const { copyCode } = require("vuepress-plugin-copy-code2");
+const { sitemap } = require("vuepress-plugin-sitemap2");
 
 module.exports = {
     // 站点配置
@@ -24,6 +25,9 @@ module.exports = {
     plugins: [
       copyCode({
         showInMobile: 'true',
+      }),
+      sitemap({
+        hostname: 'true',
       }),
       [
         '@vuepress/docsearch',
