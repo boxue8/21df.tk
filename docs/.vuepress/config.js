@@ -24,7 +24,7 @@ module.exports = {
     },
     plugins: [
       copyCode({
-        showInMobile: 'true',
+        showInMobile: 'https://www.21df.tk',
       }),
       sitemap({
         hostname: 'true',
