@@ -24,10 +24,10 @@ module.exports = {
     },
     plugins: [
       copyCode({
-        showInMobile: 'https://www.21df.tk',
+        showInMobile: 'true',
       }),
       sitemap({
-        hostname: 'true',
+        hostname: 'https://www.21df.tk',
       }),
       [
         '@vuepress/docsearch',
