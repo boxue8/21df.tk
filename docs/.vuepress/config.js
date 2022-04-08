@@ -26,13 +26,21 @@ module.exports = {
         showInMobile: 'true',
       }),
       [
-        '@vuepress/plugin-search',
+        '@vuepress/docsearch',
         {
+          appId: 'QDVRVA5V1Q',
+          apiKey: '2e8d1dad53f5b2fd3799157e324a0f09',
+          indexName: '21df',
           locales: {
             '/': {
-              placeholder: '搜索',
+              placeholder: '搜索文档',
+              translations: {
+                button: {
+                  buttonText: '搜索文档',
+                },
+              },
             },
-          },  
+          },
         },
       ],
     ],
