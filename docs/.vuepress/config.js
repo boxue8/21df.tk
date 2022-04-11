@@ -7,6 +7,11 @@ module.exports = {
     title: '爱分享',
     description: '写代码是热爱，写到世界充满爱',
   
+    head: [
+      ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
+      ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ],
+
     // 主题和它的配置
     theme: '@vuepress/theme-default',
     themeConfig: {
@@ -32,6 +37,18 @@ module.exports = {
       sitemap({
         hostname: 'https://www.21df.tk',
       }),
+      ['@vuepress/plugin-pwa'],
+      [
+        '@vuepress/plugin-pwa-popup',
+        {
+          locales: {
+            '/': {
+              message: '发现新内容可用',
+              buttonText: '刷新',
+            },
+          },
+        },
+      ],
       [
         '@vuepress/docsearch',
         {
