@@ -32,7 +32,11 @@ module.exports = {
         },
         pwa: {
           pwa: true,
-        }
+        },
+        feed: {
+          hostname: 'https://www.21df.tk',
+          atom: true,
+        },
       },
     },
     plugins: [
