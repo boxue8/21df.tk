@@ -30,27 +30,15 @@ module.exports = {
           type: "twikoo",
           envId: "http://comment.21df.tk/",
         },
-      },
-      themePlugins: {
-        mediumZoom: false,
+        pwa: {
+          pwa: true,
+        }
       },
     },
     plugins: [
       sitemap({
         hostname: 'https://www.21df.tk',
       }),
-      ['@vuepress/plugin-pwa'],
-      [
-        '@vuepress/plugin-pwa-popup',
-        {
-          locales: {
-            '/': {
-              message: '发现新内容可用',
-              buttonText: '刷新',
-            },
-          },
-        },
-      ],
       [
         '@vuepress/docsearch',
         {
