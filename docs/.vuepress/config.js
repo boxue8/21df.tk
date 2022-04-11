@@ -20,6 +20,9 @@ module.exports = {
       ],
       contributorsText: '贡献者',
       lastUpdatedText: '上次更新',
+      themePlugins: {
+        mediumZoom: false,
+      },
     },
     plugins: [
       ["photo-swipe"],
