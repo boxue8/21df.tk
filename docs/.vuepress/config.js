@@ -1,4 +1,3 @@
-
 const { sitemap } = require("vuepress-plugin-sitemap2");
 const { defineHopeConfig } = require("vuepress-theme-hope");
 
@@ -26,6 +25,12 @@ module.exports = {
       ],
       contributorsText: '贡献者',
       lastUpdatedText: '上次更新',
+      plugins: {
+        comment: {
+          type: "twikoo",
+          envId: "http://comment.21df.tk/",
+        },
+      },
       themePlugins: {
         mediumZoom: false,
       },
