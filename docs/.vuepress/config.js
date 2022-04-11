@@ -28,7 +28,7 @@ module.exports = {
       plugins: {
         comment: {
           type: "twikoo",
-          envId: "http://comment.21df.tk/",
+          envId: "https://comment.21df.tk/",
         },
         pwa: {
           pwa: true,
