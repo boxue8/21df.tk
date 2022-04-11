@@ -1429,6 +1429,11 @@ path-type@^4.0.0:
   resolved "https://registry.npmmirror.com/path-type/-/path-type-4.0.0.tgz"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
+photoswipe@^5.2.4:
+  version "5.2.4"
+  resolved "https://registry.npmmirror.com/photoswipe/-/photoswipe-5.2.4.tgz#918fd64c6b41b6a693743e5d70ee1a59747f491d"
+  integrity sha512-7p+VH7ELUnW9/3rCULCmyXcUCEuZwcsxvxPQYzR4wk3EaXcLCiINMCspc9Qq9AJYNsqYo1qGVL1y1Tch8uKAjw==
+
 picocolors@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmmirror.com/picocolors/-/picocolors-1.0.0.tgz"
@@ -1731,6 +1736,19 @@ vuepress-plugin-copy-code2@^2.0.0-beta.37:
     "@vuepress/client" "2.0.0-beta.38"
     "@vuepress/utils" "2.0.0-beta.38"
     balloon-css "^1.2.0"
+    vue "^3.2.31"
+    vue-router "^4.0.14"
+    vuepress-plugin-sass-palette "2.0.0-beta.37"
+
+vuepress-plugin-photo-swipe@^2.0.0-beta.37:
+  version "2.0.0-beta.37"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-photo-swipe/-/vuepress-plugin-photo-swipe-2.0.0-beta.37.tgz#2a1c8ab644ff6bc490214ca2c8f9bb46bab16dd2"
+  integrity sha512-YkVi5+FDLChx3GA1k/3hLi8Pn008BX1vcOMOtQPkTsFdOCU7lUN/u9AhpYB7TBUpmE15qTq9ftkP9P0mCX1bfQ==
+  dependencies:
+    "@mr-hope/vuepress-shared" "2.0.0-beta.37"
+    "@vuepress/client" "2.0.0-beta.38"
+    "@vuepress/utils" "2.0.0-beta.38"
+    photoswipe "^5.2.4"
     vue "^3.2.31"
     vue-router "^4.0.14"
     vuepress-plugin-sass-palette "2.0.0-beta.37"

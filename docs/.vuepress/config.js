@@ -20,9 +20,9 @@ module.exports = {
       ],
       contributorsText: '贡献者',
       lastUpdatedText: '上次更新',
-      selector: ':not(a) > img',
     },
     plugins: [
+      ["photo-swipe"],
       copyCode({
         showInMobile: 'true',
       }),
