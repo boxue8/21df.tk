@@ -1,5 +1,6 @@
-const { copyCode } = require("vuepress-plugin-copy-code2");
+
 const { sitemap } = require("vuepress-plugin-sitemap2");
+const { defineHopeConfig } = require("vuepress-theme-hope");
 
 module.exports = {
     // 站点配置
@@ -13,7 +14,7 @@ module.exports = {
     ],
 
     // 主题和它的配置
-    theme: '@vuepress/theme-default',
+    theme: 'hope',
     themeConfig: {
       sidebar: [
           '/',
@@ -30,10 +31,6 @@ module.exports = {
       },
     },
     plugins: [
-      ["photo-swipe"],
-      copyCode({
-        showInMobile: 'true',
-      }),
       sitemap({
         hostname: 'https://www.21df.tk',
       }),
