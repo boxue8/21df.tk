@@ -37,6 +37,9 @@ module.exports = {
           hostname: 'https://www.21df.tk',
           atom: true,
         },
+        copyCode: {
+          showInMobile: true,
+        },
       },
     },
     plugins: [
