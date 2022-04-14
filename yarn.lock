@@ -4707,7 +4707,7 @@ vuepress-plugin-blog2@2.0.0-beta.38:
     vue "^3.2.31"
     vue-router "^4.0.14"
 
-vuepress-plugin-comment2@2.0.0-beta.38, vuepress-plugin-comment2@^2.0.0-beta.38:
+vuepress-plugin-comment2@2.0.0-beta.38:
   version "2.0.0-beta.38"
   resolved "https://registry.npmmirror.com/vuepress-plugin-comment2/-/vuepress-plugin-comment2-2.0.0-beta.38.tgz#e04f5d59f9a60dd5a3b10237378fbae427f18430"
   integrity sha512-F5hiRyF5qcN294tyo6bgTFc//kO5imvNofqU0JL8hXv17E8k/RF+CgFXaXrz8Bztj36D/3j00iKpl60lBjG/lw==
@@ -4721,6 +4721,21 @@ vuepress-plugin-comment2@2.0.0-beta.38, vuepress-plugin-comment2@^2.0.0-beta.38:
     vue "^3.2.31"
     vue-router "^4.0.14"
     vuepress-plugin-sass-palette "2.0.0-beta.38"
+
+vuepress-plugin-comment2@^2.0.0-beta.40:
+  version "2.0.0-beta.40"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-comment2/-/vuepress-plugin-comment2-2.0.0-beta.40.tgz#bcf6e905d18b80aaba64261d8e1080fe4cd46d49"
+  integrity sha512-4qrmOFqpQcU7HwFWjLohD2LLWSm4SR7l+MBzt+K6FE2dbIV4OBe0886HiZ2MNdb/OqqzdV9Gz0mtsUmfvJHiFw==
+  dependencies:
+    "@mr-hope/vuepress-shared" "2.0.0-beta.40"
+    "@vuepress/client" "2.0.0-beta.38"
+    "@vuepress/utils" "2.0.0-beta.38"
+    "@waline/client" "^1.6.0"
+    giscus "^1.0.2"
+    twikoo "^1.5.3"
+    vue "^3.2.32"
+    vue-router "^4.0.14"
+    vuepress-plugin-sass-palette "2.0.0-beta.40"
 
 vuepress-plugin-copy-code2@2.0.0-beta.38:
   version "2.0.0-beta.38"
