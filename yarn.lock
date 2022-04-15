@@ -1102,6 +1102,20 @@
     ora "^5.4.1"
     vue "^3.2.32"
 
+"@mr-hope/vuepress-shared@2.0.0-beta.41":
+  version "2.0.0-beta.41"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-shared/-/vuepress-shared-2.0.0-beta.41.tgz#61740f036c8080a159b42dfcbe659664176e3505"
+  integrity sha512-9wSHiTo2reuq6CD8ZQIaiE+SAtj5nriDlhzCT1T5ONPUmYPO96u02ymsv5YLatLCOFtdmEfitRCtEYo5ml4KwA==
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.38"
+    "@vuepress/plugin-git" "2.0.0-beta.38"
+    "@vuepress/plugin-theme-data" "2.0.0-beta.38"
+    "@vuepress/shared" "2.0.0-beta.38"
+    chalk "^4.1.2"
+    dayjs "^1.11.0"
+    ora "^5.4.1"
+    vue "^3.2.32"
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.npmmirror.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -4710,7 +4724,7 @@ vuepress-plugin-comment2@2.0.0-beta.40, vuepress-plugin-comment2@^2.0.0-beta.40:
     vue-router "^4.0.14"
     vuepress-plugin-sass-palette "2.0.0-beta.40"
 
-vuepress-plugin-copy-code2@2.0.0-beta.40, vuepress-plugin-copy-code2@^2.0.0-beta.40:
+vuepress-plugin-copy-code2@2.0.0-beta.40:
   version "2.0.0-beta.40"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-copy-code2/-/vuepress-plugin-copy-code2-2.0.0-beta.40.tgz#611f859fd633fdd820319666f8c5284dec993d82"
   integrity sha512-cz7jbPi7edpX//39FMHmQOwJySRNiowybTQbSGwrdpcWwPqjESPk8RcPGMDFOddiq6PInR0ohyAlFV3Ijri3tw==
@@ -4722,6 +4736,19 @@ vuepress-plugin-copy-code2@2.0.0-beta.40, vuepress-plugin-copy-code2@^2.0.0-beta
     vue "^3.2.32"
     vue-router "^4.0.14"
     vuepress-plugin-sass-palette "2.0.0-beta.40"
+
+vuepress-plugin-copy-code2@^2.0.0-beta.41:
+  version "2.0.0-beta.41"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-copy-code2/-/vuepress-plugin-copy-code2-2.0.0-beta.41.tgz#a5aecdb021cb5e9ee5a1770353903ae5345dd323"
+  integrity sha512-SAD2XnWAJ5/5m9lTHW135Pt7oifqFAUabzKvLmY+D6pl3kgWYqiNFYOeUt3TwO3HB2LHp9EduN+LVa21Og++/A==
+  dependencies:
+    "@mr-hope/vuepress-shared" "2.0.0-beta.41"
+    "@vuepress/client" "2.0.0-beta.38"
+    "@vuepress/utils" "2.0.0-beta.38"
+    balloon-css "^1.2.0"
+    vue "^3.2.32"
+    vue-router "^4.0.14"
+    vuepress-plugin-sass-palette "2.0.0-beta.41"
 
 vuepress-plugin-copyright2@2.0.0-beta.40:
   version "2.0.0-beta.40"
@@ -4807,6 +4834,17 @@ vuepress-plugin-sass-palette@2.0.0-beta.40:
   integrity sha512-j603PaF+4K9wYmOcVY5zBfWFdznGGnpATCIJUJ/AznPP/qv62DoqPgw9jq1QmYQeSYM+xyhkQ2USl6ImvyovLQ==
   dependencies:
     "@mr-hope/vuepress-shared" "2.0.0-beta.40"
+    "@vuepress/utils" "2.0.0-beta.38"
+    chokidar "^3.5.3"
+    sass "^1.50.0"
+    sass-loader "^12.6.0"
+
+vuepress-plugin-sass-palette@2.0.0-beta.41:
+  version "2.0.0-beta.41"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-sass-palette/-/vuepress-plugin-sass-palette-2.0.0-beta.41.tgz#728322e242c185f6aeb90b2b92ad06f386722d4a"
+  integrity sha512-ZOMIrG1TmelYMxBXPCDjLAKRU8+GU9tJ5pgKLysalfxCguPLh4Z3dF85GILmsuCM5WCiaqKi86YnqT/79DIuRg==
+  dependencies:
+    "@mr-hope/vuepress-shared" "2.0.0-beta.41"
     "@vuepress/utils" "2.0.0-beta.38"
     chokidar "^3.5.3"
     sass "^1.50.0"
