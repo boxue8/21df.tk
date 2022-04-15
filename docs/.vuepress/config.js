@@ -23,7 +23,7 @@ module.exports = {
           '/html/4.md',
           '/html/5.md',
       ],
-      logo: '/images/icons/logo.svg',
+      logo: '/logo.svg',
       contributorsText: '贡献者',
       lastUpdatedText: '上次更新',
       plugins: {
