@@ -26,7 +26,6 @@ module.exports = {
       logo: '/images/icons/logo.svg',
       contributorsText: '贡献者',
       lastUpdatedText: '上次更新',
-      copyright: 'true',
       plugins: {
         comment: {
           type: "twikoo",
