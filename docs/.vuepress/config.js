@@ -26,6 +26,8 @@ module.exports = {
       logo: '/logo.svg',
       contributorsText: '贡献者',
       lastUpdatedText: '上次更新',
+      displayFooter: 'true',
+      footer: "Copyright © 2021-2022 爱分享",
       plugins: {
         comment: {
           type: "twikoo",
