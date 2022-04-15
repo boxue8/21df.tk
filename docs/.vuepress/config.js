@@ -15,6 +15,7 @@ module.exports = {
     // 主题和它的配置
     theme: 'hope',
     themeConfig: {
+      copyright: 'Copyright &copy; 爱分享',
       sidebar: [
           '/',
           '/html/1.md',
