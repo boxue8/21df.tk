@@ -15,7 +15,6 @@ module.exports = {
     // 主题和它的配置
     theme: 'hope',
     themeConfig: {
-      footer: "Copyright &copy; 爱分享",
       sidebar: [
           '/',
           '/html/1.md',
@@ -27,6 +26,7 @@ module.exports = {
       logo: '/images/icons/logo.svg',
       contributorsText: '贡献者',
       lastUpdatedText: '上次更新',
+      copyright: 'true',
       plugins: {
         comment: {
           type: "twikoo",
