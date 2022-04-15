@@ -4779,7 +4779,7 @@ vuepress-plugin-md-enhance@2.0.0-beta.40:
     vue-router "^4.0.14"
     vuepress-plugin-sass-palette "2.0.0-beta.40"
 
-vuepress-plugin-photo-swipe@2.0.0-beta.40, vuepress-plugin-photo-swipe@^2.0.0-beta.40:
+vuepress-plugin-photo-swipe@2.0.0-beta.40:
   version "2.0.0-beta.40"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-photo-swipe/-/vuepress-plugin-photo-swipe-2.0.0-beta.40.tgz#f8faba8ec68fc06f3a3f6dfa43c60f1a8a693bb9"
   integrity sha512-9Aakg7IyyOqwFtWaydJlaiU92gkqVm+wLvHetoGlRtYhIqdBrHdHOQdIa6qLlxVWmbthO5vex3Y++sTT7Pie9g==
@@ -4791,6 +4791,19 @@ vuepress-plugin-photo-swipe@2.0.0-beta.40, vuepress-plugin-photo-swipe@^2.0.0-be
     vue "^3.2.32"
     vue-router "^4.0.14"
     vuepress-plugin-sass-palette "2.0.0-beta.40"
+
+vuepress-plugin-photo-swipe@^2.0.0-beta.41:
+  version "2.0.0-beta.41"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-photo-swipe/-/vuepress-plugin-photo-swipe-2.0.0-beta.41.tgz#a3d15894ecd461b167a3940c57dd7ffe485afb1a"
+  integrity sha512-IpBIUgixKRO97HsZb84f7sJlBeUVCePd8MWvS7YGasY6rUN/r2egvs69Akczbm1K31S5MqIaW3hAKy/NmuDfSg==
+  dependencies:
+    "@mr-hope/vuepress-shared" "2.0.0-beta.41"
+    "@vuepress/client" "2.0.0-beta.38"
+    "@vuepress/utils" "2.0.0-beta.38"
+    photoswipe "^5.2.4"
+    vue "^3.2.32"
+    vue-router "^4.0.14"
+    vuepress-plugin-sass-palette "2.0.0-beta.41"
 
 vuepress-plugin-pwa2@2.0.0-beta.40, vuepress-plugin-pwa2@^2.0.0-beta.40:
   version "2.0.0-beta.40"
@@ -4821,6 +4834,17 @@ vuepress-plugin-sass-palette@2.0.0-beta.40:
   integrity sha512-j603PaF+4K9wYmOcVY5zBfWFdznGGnpATCIJUJ/AznPP/qv62DoqPgw9jq1QmYQeSYM+xyhkQ2USl6ImvyovLQ==
   dependencies:
     "@mr-hope/vuepress-shared" "2.0.0-beta.40"
+    "@vuepress/utils" "2.0.0-beta.38"
+    chokidar "^3.5.3"
+    sass "^1.50.0"
+    sass-loader "^12.6.0"
+
+vuepress-plugin-sass-palette@2.0.0-beta.41:
+  version "2.0.0-beta.41"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-sass-palette/-/vuepress-plugin-sass-palette-2.0.0-beta.41.tgz#728322e242c185f6aeb90b2b92ad06f386722d4a"
+  integrity sha512-ZOMIrG1TmelYMxBXPCDjLAKRU8+GU9tJ5pgKLysalfxCguPLh4Z3dF85GILmsuCM5WCiaqKi86YnqT/79DIuRg==
+  dependencies:
+    "@mr-hope/vuepress-shared" "2.0.0-beta.41"
     "@vuepress/utils" "2.0.0-beta.38"
     chokidar "^3.5.3"
     sass "^1.50.0"
