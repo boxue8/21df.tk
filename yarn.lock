@@ -4819,7 +4819,7 @@ vuepress-plugin-photo-swipe@^2.0.0-beta.43:
     vue-router "^4.0.14"
     vuepress-plugin-sass-palette "2.0.0-beta.43"
 
-vuepress-plugin-pwa2@2.0.0-beta.42, vuepress-plugin-pwa2@^2.0.0-beta.42:
+vuepress-plugin-pwa2@2.0.0-beta.42:
   version "2.0.0-beta.42"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-pwa2/-/vuepress-plugin-pwa2-2.0.0-beta.42.tgz#83467eb4140cd32c7f34726ab097842d5bb6b9a3"
   integrity sha512-X6RHzUzpPEEo5Ivd+DNtGly8loLOIOx4O1lZ7u/k8jIBrqbZYE/1t+ewqkuFIYOxXZL+AfHtPMAmJNzSc4IU3A==
@@ -4833,6 +4833,22 @@ vuepress-plugin-pwa2@2.0.0-beta.42, vuepress-plugin-pwa2@^2.0.0-beta.42:
     vue "^3.2.32"
     vue-router "^4.0.14"
     vuepress-plugin-sass-palette "2.0.0-beta.42"
+    workbox-build "^6.5.3"
+
+vuepress-plugin-pwa2@^2.0.0-beta.43:
+  version "2.0.0-beta.43"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-pwa2/-/vuepress-plugin-pwa2-2.0.0-beta.43.tgz#1c6abda1f223a893d2dbd2b42b0a0b555e59a801"
+  integrity sha512-cdzvx6YBSUlPDvF71/WQGZDWtTG3p32FxBIQe6//GzFPLVDjQzpUjQMOQhHg2tqmsU0AJhkMdxjIU0CGGNdLqg==
+  dependencies:
+    "@mr-hope/vuepress-shared" "2.0.0-beta.43"
+    "@vuepress/client" "2.0.0-beta.38"
+    "@vuepress/shared" "2.0.0-beta.38"
+    "@vuepress/utils" "2.0.0-beta.38"
+    mitt "^3.0.0"
+    register-service-worker "^1.7.2"
+    vue "^3.2.32"
+    vue-router "^4.0.14"
+    vuepress-plugin-sass-palette "2.0.0-beta.43"
     workbox-build "^6.5.3"
 
 vuepress-plugin-reading-time2@2.0.0-beta.42:
