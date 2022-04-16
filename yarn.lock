@@ -4738,7 +4738,7 @@ vuepress-plugin-comment2@^2.0.0-beta.42:
     vue-router "^4.0.14"
     vuepress-plugin-sass-palette "2.0.0-beta.42"
 
-vuepress-plugin-copy-code2@2.0.0-beta.41, vuepress-plugin-copy-code2@^2.0.0-beta.40:
+vuepress-plugin-copy-code2@2.0.0-beta.41:
   version "2.0.0-beta.41"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-copy-code2/-/vuepress-plugin-copy-code2-2.0.0-beta.41.tgz#a5aecdb021cb5e9ee5a1770353903ae5345dd323"
   integrity sha512-SAD2XnWAJ5/5m9lTHW135Pt7oifqFAUabzKvLmY+D6pl3kgWYqiNFYOeUt3TwO3HB2LHp9EduN+LVa21Og++/A==
@@ -4750,6 +4750,19 @@ vuepress-plugin-copy-code2@2.0.0-beta.41, vuepress-plugin-copy-code2@^2.0.0-beta
     vue "^3.2.32"
     vue-router "^4.0.14"
     vuepress-plugin-sass-palette "2.0.0-beta.41"
+
+vuepress-plugin-copy-code2@^2.0.0-beta.42:
+  version "2.0.0-beta.42"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-copy-code2/-/vuepress-plugin-copy-code2-2.0.0-beta.42.tgz#404ff43e74a9d40a84c7a79344d1d8df72f6380d"
+  integrity sha512-bv8SzH4uLuynmDGNdGApi/gbD6vLNrXIfxc9gKDP7MuGzcwWH58WcmNPMbPS5mNrtuKXM6dIAaJTxCmEkXVGIg==
+  dependencies:
+    "@mr-hope/vuepress-shared" "2.0.0-beta.42"
+    "@vuepress/client" "2.0.0-beta.38"
+    "@vuepress/utils" "2.0.0-beta.38"
+    balloon-css "^1.2.0"
+    vue "^3.2.32"
+    vue-router "^4.0.14"
+    vuepress-plugin-sass-palette "2.0.0-beta.42"
 
 vuepress-plugin-copyright2@2.0.0-beta.41:
   version "2.0.0-beta.41"
