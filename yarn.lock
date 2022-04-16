@@ -1101,6 +1101,20 @@
     ora "^5.4.1"
     vue "^3.2.32"
 
+"@mr-hope/vuepress-shared@2.0.0-beta.42":
+  version "2.0.0-beta.42"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-shared/-/vuepress-shared-2.0.0-beta.42.tgz#0e4279ed49b64ee92f44aba15eb4d5ce4137ad91"
+  integrity sha512-edlI/6djYOB2aD5a3Xuu8IAj/Ll2nUS8myh83RXy4t1bjDx/hmKCjCPfcGpnTF/lr/n6Hy5G+d04pZ20iOl/lw==
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.38"
+    "@vuepress/plugin-git" "2.0.0-beta.38"
+    "@vuepress/plugin-theme-data" "2.0.0-beta.38"
+    "@vuepress/shared" "2.0.0-beta.38"
+    chalk "^4.1.2"
+    dayjs "^1.11.0"
+    ora "^5.4.1"
+    vue "^3.2.32"
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.npmmirror.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -4822,12 +4836,22 @@ vuepress-plugin-seo2@2.0.0-beta.41:
     "@vuepress/shared" "2.0.0-beta.38"
     "@vuepress/utils" "2.0.0-beta.38"
 
-vuepress-plugin-sitemap2@2.0.0-beta.41, vuepress-plugin-sitemap2@^2.0.0-beta.41:
+vuepress-plugin-sitemap2@2.0.0-beta.41:
   version "2.0.0-beta.41"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-sitemap2/-/vuepress-plugin-sitemap2-2.0.0-beta.41.tgz#1ea11bef2999b9bd66c583ec6aab84a680f1fb1e"
   integrity sha512-pc+PRILIBjgqJ9odL5WCkeJ3BIoQyIs2rJw1LJvRzaX5UzsnTypNmZ+UFW5sbsirI8p+zRm+zO3zjos3FjvDow==
   dependencies:
     "@mr-hope/vuepress-shared" "2.0.0-beta.41"
+    "@vuepress/shared" "2.0.0-beta.38"
+    "@vuepress/utils" "2.0.0-beta.38"
+    sitemap "^7.1.1"
+
+vuepress-plugin-sitemap2@^2.0.0-beta.42:
+  version "2.0.0-beta.42"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-sitemap2/-/vuepress-plugin-sitemap2-2.0.0-beta.42.tgz#75812bcf15320d5afce549fcc4999f545e654f93"
+  integrity sha512-4aiVl/oL4+MSDWi8svMxf+CGnPUDT3uakquIdnBUabC2vI980X1xb9jIv4Tvf4rfypSshClq2yzosPIvQbWs5g==
+  dependencies:
+    "@mr-hope/vuepress-shared" "2.0.0-beta.42"
     "@vuepress/shared" "2.0.0-beta.38"
     "@vuepress/utils" "2.0.0-beta.38"
     sitemap "^7.1.1"
