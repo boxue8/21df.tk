@@ -20,6 +20,6 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
-    "vuepress-theme-hope": "^2.0.0-beta.42"
+    "vuepress-theme-hope": "^2.0.0-beta.43"
   }
 }
