@@ -13,7 +13,7 @@
     "vuepress-plugin-feed2": "^2.0.0-beta.44",
     "vuepress-plugin-photo-swipe": "^2.0.0-beta.44",
     "vuepress-plugin-pwa2": "^2.0.0-beta.44",
-    "vuepress-plugin-sitemap2": "^2.0.0-beta.43"
+    "vuepress-plugin-sitemap2": "^2.0.0-beta.44"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
