@@ -22,6 +22,7 @@ module.exports = {
           '/html/3.md',
           '/html/4.md',
           '/html/5.md',
+          '/html/6.md',
       ],
       logo: '/logo.svg',
       contributorsText: '贡献者',
