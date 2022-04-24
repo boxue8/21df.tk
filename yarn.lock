@@ -4839,7 +4839,7 @@ vuepress-plugin-photo-swipe@2.0.0-beta.46, vuepress-plugin-photo-swipe@^2.0.0-be
     vue-router "^4.0.14"
     vuepress-plugin-sass-palette "2.0.0-beta.46"
 
-vuepress-plugin-pwa2@2.0.0-beta.46, vuepress-plugin-pwa2@^2.0.0-beta.46:
+vuepress-plugin-pwa2@2.0.0-beta.46:
   version "2.0.0-beta.46"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-pwa2/-/vuepress-plugin-pwa2-2.0.0-beta.46.tgz#e2d7d0d3d7228173f9cb979a9469f3f8782e5fd4"
   integrity sha512-O4U9EuOKKeUMS6v+Y/ZMGg0PXf+AKL6uRS81H25aq3ShEUyqQEQMaj4dLrwqrZfd9WyCvVHNKKZYPJ1kRbT4mg==
@@ -4855,6 +4855,22 @@ vuepress-plugin-pwa2@2.0.0-beta.46, vuepress-plugin-pwa2@^2.0.0-beta.46:
     vuepress-plugin-sass-palette "2.0.0-beta.46"
     workbox-build "^6.5.3"
 
+vuepress-plugin-pwa2@^2.0.0-beta.47:
+  version "2.0.0-beta.47"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-pwa2/-/vuepress-plugin-pwa2-2.0.0-beta.47.tgz#8fcbc9ddb04029ec00aabbd42b194b3e4bfe20c4"
+  integrity sha512-uUPrI7T4gSDd9VI69FKildCgMGWSHQvwskL0XJQsTlezJEYLH7B+YW3vKS1kM/5rzbRYSOVfyzqjSIQnQC2hYQ==
+  dependencies:
+    "@mr-hope/vuepress-shared" "2.0.0-beta.47"
+    "@vuepress/client" "2.0.0-beta.38"
+    "@vuepress/shared" "2.0.0-beta.38"
+    "@vuepress/utils" "2.0.0-beta.38"
+    mitt "^3.0.0"
+    register-service-worker "^1.7.2"
+    vue "^3.2.32"
+    vue-router "^4.0.14"
+    vuepress-plugin-sass-palette "2.0.0-beta.47"
+    workbox-build "^6.5.3"
+
 vuepress-plugin-reading-time2@2.0.0-beta.46:
   version "2.0.0-beta.46"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-reading-time2/-/vuepress-plugin-reading-time2-2.0.0-beta.46.tgz#33855b19e857f9f30a20bf13c76fe89f6055c913"
@@ -4868,6 +4884,17 @@ vuepress-plugin-sass-palette@2.0.0-beta.46:
   integrity sha512-yz0H9Zk5oa14Ru0YCfsR4ru/yV+DGYQnr4WkaEn7TDYIVN5A6yE14W+TCOrtrzwOgCdtUA9dG4PBjBbt5e/CVg==
   dependencies:
     "@mr-hope/vuepress-shared" "2.0.0-beta.46"
+    "@vuepress/utils" "2.0.0-beta.38"
+    chokidar "^3.5.3"
+    sass "^1.50.1"
+    sass-loader "^12.6.0"
+
+vuepress-plugin-sass-palette@2.0.0-beta.47:
+  version "2.0.0-beta.47"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-sass-palette/-/vuepress-plugin-sass-palette-2.0.0-beta.47.tgz#338cfc6aa96fc1c4f712f3b40b1fe7eac50df885"
+  integrity sha512-rRWnwXzmMOOTR7ArAXphtgOscntkmzsd7CJwL2d+uXy/LOriNdH1yfESNiwD/lKRQsUH1tYPW52cAki0joJnaw==
+  dependencies:
+    "@mr-hope/vuepress-shared" "2.0.0-beta.47"
     "@vuepress/utils" "2.0.0-beta.38"
     chokidar "^3.5.3"
     sass "^1.50.1"
