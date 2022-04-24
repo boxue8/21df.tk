@@ -1101,6 +1101,20 @@
     ora "^5.4.1"
     vue "^3.2.32"
 
+"@mr-hope/vuepress-shared@2.0.0-beta.46":
+  version "2.0.0-beta.46"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-shared/-/vuepress-shared-2.0.0-beta.46.tgz#4cb908e0964c5440aff763df54a4d78c11b48c70"
+  integrity sha512-OmUnURW36+7CjVNRuu+Bwvk85bdxOFGdD+e6O3XjP6NQyeTfjyOzkGTbDOfFAjk9RA4EV4JEm3M2GyCVU10XxQ==
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.38"
+    "@vuepress/plugin-git" "2.0.0-beta.38"
+    "@vuepress/plugin-theme-data" "2.0.0-beta.38"
+    "@vuepress/shared" "2.0.0-beta.38"
+    chalk "^4.1.2"
+    dayjs "^1.11.1"
+    ora "^5.4.1"
+    vue "^3.2.32"
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.npmmirror.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -2694,6 +2708,11 @@ dayjs@^1.11.0:
   resolved "https://registry.npmmirror.com/dayjs/-/dayjs-1.11.0.tgz#009bf7ef2e2ea2d5db2e6583d2d39a4b5061e805"
   integrity sha512-JLC809s6Y948/FuCZPm5IX8rRhQwOiyMb2TfVVQEixG7P8Lm/gt5S7yoQZmC8x1UehI9Pb7sksEt4xx14m+7Ug==
 
+dayjs@^1.11.1:
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.1.tgz#90b33a3dda3417258d48ad2771b415def6545eb0"
+  integrity sha512-ER7EjqVAMkRRsxNCC5YqJ9d9VQYuWdGt7aiH2qA5R5wt8ZmWaP2dLUSIK6y/kVzLMlmh1Tvu5xUf4M/wdGJ5KA==
+
 debug@^4.1.0, debug@^4.1.1, debug@^4.3.4:
   version "4.3.4"
   resolved "https://registry.npmmirror.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
@@ -4245,6 +4264,15 @@ sass@^1.49.10, sass@^1.50.0:
     immutable "^4.0.0"
     source-map-js ">=0.6.2 <2.0.0"
 
+sass@^1.50.1:
+  version "1.50.1"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.50.1.tgz#e9b078a1748863013c4712d2466ce8ca4e4ed292"
+  integrity sha512-noTnY41KnlW2A9P8sdwESpDmo+KBNkukI1i8+hOK3footBUcohNHtdOJbckp46XO95nuvcHDDZ+4tmOnpK3hjw==
+  dependencies:
+    chokidar ">=3.0.0 <4.0.0"
+    immutable "^4.0.0"
+    source-map-js ">=0.6.2 <2.0.0"
+
 sax@^1.2.4:
   version "1.2.4"
   resolved "https://registry.npmmirror.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
@@ -4709,7 +4737,7 @@ vuepress-plugin-comment2@2.0.0-beta.45, vuepress-plugin-comment2@^2.0.0-beta.45:
     vue-router "^4.0.14"
     vuepress-plugin-sass-palette "2.0.0-beta.45"
 
-vuepress-plugin-copy-code2@2.0.0-beta.45, vuepress-plugin-copy-code2@^2.0.0-beta.45:
+vuepress-plugin-copy-code2@2.0.0-beta.45:
   version "2.0.0-beta.45"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-copy-code2/-/vuepress-plugin-copy-code2-2.0.0-beta.45.tgz#36b6b297110249d674def48f5bd6b51411dcf64e"
   integrity sha512-vw4XaA3FdckSaKyP1YQu3QnS1rdk3FuUPW8aXTxfBJAOdBNR2mWXfZXllDT4ix0iW6jy40OhZfvmOwOJhVlWcg==
@@ -4721,6 +4749,19 @@ vuepress-plugin-copy-code2@2.0.0-beta.45, vuepress-plugin-copy-code2@^2.0.0-beta
     vue "^3.2.32"
     vue-router "^4.0.14"
     vuepress-plugin-sass-palette "2.0.0-beta.45"
+
+vuepress-plugin-copy-code2@^2.0.0-beta.46:
+  version "2.0.0-beta.46"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-copy-code2/-/vuepress-plugin-copy-code2-2.0.0-beta.46.tgz#27e1af5f30525b1f0ad0fd512fdd7e210f8a6cc1"
+  integrity sha512-jG9X5PDBwmVqhVuH2RdhHmWalasHkQ6wwfm60eJ2gfS7pRxYTDVMRzzlh/ZQmENhkX7cTaEYyUY1hlLxCiI8mQ==
+  dependencies:
+    "@mr-hope/vuepress-shared" "2.0.0-beta.46"
+    "@vuepress/client" "2.0.0-beta.38"
+    "@vuepress/utils" "2.0.0-beta.38"
+    balloon-css "^1.2.0"
+    vue "^3.2.32"
+    vue-router "^4.0.14"
+    vuepress-plugin-sass-palette "2.0.0-beta.46"
 
 vuepress-plugin-copyright2@2.0.0-beta.45:
   version "2.0.0-beta.45"
@@ -4811,6 +4852,17 @@ vuepress-plugin-sass-palette@2.0.0-beta.45:
     "@vuepress/utils" "2.0.0-beta.38"
     chokidar "^3.5.3"
     sass "^1.50.0"
+    sass-loader "^12.6.0"
+
+vuepress-plugin-sass-palette@2.0.0-beta.46:
+  version "2.0.0-beta.46"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-sass-palette/-/vuepress-plugin-sass-palette-2.0.0-beta.46.tgz#d50054414ec611d9dfb06027274c8ca8cd15e9c0"
+  integrity sha512-yz0H9Zk5oa14Ru0YCfsR4ru/yV+DGYQnr4WkaEn7TDYIVN5A6yE14W+TCOrtrzwOgCdtUA9dG4PBjBbt5e/CVg==
+  dependencies:
+    "@mr-hope/vuepress-shared" "2.0.0-beta.46"
+    "@vuepress/utils" "2.0.0-beta.38"
+    chokidar "^3.5.3"
+    sass "^1.50.1"
     sass-loader "^12.6.0"
 
 vuepress-plugin-seo2@2.0.0-beta.45:
