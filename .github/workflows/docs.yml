@@ -46,11 +46,6 @@ jobs:
         if: steps.lerna-cache.outputs.cache-hit != 'true'
         run: yarn install --frozen-lockfile
 
-      - name: Build project
-        env:
-          NODE_OPTIONS: --max_old_space_size=4096
-        run: yarn run build
-
       - name: Docs build
         env:
           BASE: /21dfsource/
