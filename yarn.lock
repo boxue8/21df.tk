@@ -4819,12 +4819,22 @@ vuepress-plugin-copyright2@2.0.0-beta.45:
     "@vuepress/shared" "2.0.0-beta.38"
     "@vuepress/utils" "2.0.0-beta.38"
 
-vuepress-plugin-feed2@2.0.0-beta.45, vuepress-plugin-feed2@^2.0.0-beta.45:
+vuepress-plugin-feed2@2.0.0-beta.45:
   version "2.0.0-beta.45"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-feed2/-/vuepress-plugin-feed2-2.0.0-beta.45.tgz#d92068205cdee005099200992fd4d2aad15e9e7c"
   integrity sha512-VcFZsN/YOJ9osA+UbYUYfbFjh75OxUoRXAgrzPBG6Sewf+EZ1kjLTKts89zUyQwkAhunsxPvg3/Q1Ky21PcOyA==
   dependencies:
     "@mr-hope/vuepress-shared" "2.0.0-beta.45"
+    "@vuepress/shared" "2.0.0-beta.38"
+    "@vuepress/utils" "2.0.0-beta.38"
+    xml-js "^1.6.11"
+
+vuepress-plugin-feed2@^2.0.0-beta.46:
+  version "2.0.0-beta.46"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-feed2/-/vuepress-plugin-feed2-2.0.0-beta.46.tgz#6f95581e001b83be64a8ce131d7520cace46f99b"
+  integrity sha512-Z/hmfl/J+tMkDjYkOX7/2ySpLfd2CA617sOovuzhFS3KpadxG/KfaSBlr5zA4tLZNJFrSoA9Pj63U4ELYaa02A==
+  dependencies:
+    "@mr-hope/vuepress-shared" "2.0.0-beta.46"
     "@vuepress/shared" "2.0.0-beta.38"
     "@vuepress/utils" "2.0.0-beta.38"
     xml-js "^1.6.11"
