@@ -4759,7 +4759,7 @@ vuepress-plugin-comment2@2.0.0-beta.46, vuepress-plugin-comment2@^2.0.0-beta.46:
     vue-router "^4.0.14"
     vuepress-plugin-sass-palette "2.0.0-beta.46"
 
-vuepress-plugin-copy-code2@2.0.0-beta.46, vuepress-plugin-copy-code2@^2.0.0-beta.46:
+vuepress-plugin-copy-code2@2.0.0-beta.46:
   version "2.0.0-beta.46"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-copy-code2/-/vuepress-plugin-copy-code2-2.0.0-beta.46.tgz#27e1af5f30525b1f0ad0fd512fdd7e210f8a6cc1"
   integrity sha512-jG9X5PDBwmVqhVuH2RdhHmWalasHkQ6wwfm60eJ2gfS7pRxYTDVMRzzlh/ZQmENhkX7cTaEYyUY1hlLxCiI8mQ==
@@ -4771,6 +4771,19 @@ vuepress-plugin-copy-code2@2.0.0-beta.46, vuepress-plugin-copy-code2@^2.0.0-beta
     vue "^3.2.32"
     vue-router "^4.0.14"
     vuepress-plugin-sass-palette "2.0.0-beta.46"
+
+vuepress-plugin-copy-code2@^2.0.0-beta.47:
+  version "2.0.0-beta.47"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-copy-code2/-/vuepress-plugin-copy-code2-2.0.0-beta.47.tgz#40d7e5a506e061785a8f358e136c61a84bce95e1"
+  integrity sha512-7N6OB2kb3q10QZA8CxI7xvunYc8+Vz4TnyIM8Zvr/NL7qurSe3DIaIbyv8s4T7Mu/EtgykuDxu25A36dsoUzQw==
+  dependencies:
+    "@mr-hope/vuepress-shared" "2.0.0-beta.47"
+    "@vuepress/client" "2.0.0-beta.38"
+    "@vuepress/utils" "2.0.0-beta.38"
+    balloon-css "^1.2.0"
+    vue "^3.2.32"
+    vue-router "^4.0.14"
+    vuepress-plugin-sass-palette "2.0.0-beta.47"
 
 vuepress-plugin-copyright2@2.0.0-beta.46:
   version "2.0.0-beta.46"
@@ -4868,6 +4881,17 @@ vuepress-plugin-sass-palette@2.0.0-beta.46:
   integrity sha512-yz0H9Zk5oa14Ru0YCfsR4ru/yV+DGYQnr4WkaEn7TDYIVN5A6yE14W+TCOrtrzwOgCdtUA9dG4PBjBbt5e/CVg==
   dependencies:
     "@mr-hope/vuepress-shared" "2.0.0-beta.46"
+    "@vuepress/utils" "2.0.0-beta.38"
+    chokidar "^3.5.3"
+    sass "^1.50.1"
+    sass-loader "^12.6.0"
+
+vuepress-plugin-sass-palette@2.0.0-beta.47:
+  version "2.0.0-beta.47"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-sass-palette/-/vuepress-plugin-sass-palette-2.0.0-beta.47.tgz#338cfc6aa96fc1c4f712f3b40b1fe7eac50df885"
+  integrity sha512-rRWnwXzmMOOTR7ArAXphtgOscntkmzsd7CJwL2d+uXy/LOriNdH1yfESNiwD/lKRQsUH1tYPW52cAki0joJnaw==
+  dependencies:
+    "@mr-hope/vuepress-shared" "2.0.0-beta.47"
     "@vuepress/utils" "2.0.0-beta.38"
     chokidar "^3.5.3"
     sass "^1.50.1"
