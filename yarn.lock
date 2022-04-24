@@ -4922,12 +4922,22 @@ vuepress-plugin-seo2@2.0.0-beta.46:
     "@vuepress/shared" "2.0.0-beta.38"
     "@vuepress/utils" "2.0.0-beta.38"
 
-vuepress-plugin-sitemap2@2.0.0-beta.46, vuepress-plugin-sitemap2@^2.0.0-beta.46:
+vuepress-plugin-sitemap2@2.0.0-beta.46:
   version "2.0.0-beta.46"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-sitemap2/-/vuepress-plugin-sitemap2-2.0.0-beta.46.tgz#47203cb67d260334e153eb2ae91bbdda919340ef"
   integrity sha512-4AWPe2v8NxhFZGtil/+4WKM4XkXB0IywbkjSt/H5D/+J1j2VXM792QwgoFVsyFMvBJ2mGiG5BEFwLjD8GCGTmw==
   dependencies:
     "@mr-hope/vuepress-shared" "2.0.0-beta.46"
+    "@vuepress/shared" "2.0.0-beta.38"
+    "@vuepress/utils" "2.0.0-beta.38"
+    sitemap "^7.1.1"
+
+vuepress-plugin-sitemap2@^2.0.0-beta.47:
+  version "2.0.0-beta.47"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-sitemap2/-/vuepress-plugin-sitemap2-2.0.0-beta.47.tgz#a8581d987db09d1211d28dac9550e741ec53d66d"
+  integrity sha512-s68FtkTlSXLLlVA+6Bs8/1Vl+GtJoYNAj7cm9ONkt8MyHamLSOE+CH+5UElukxuvb2Kv4m5WITFQxDTUJr8aJA==
+  dependencies:
+    "@mr-hope/vuepress-shared" "2.0.0-beta.47"
     "@vuepress/shared" "2.0.0-beta.38"
     "@vuepress/utils" "2.0.0-beta.38"
     sitemap "^7.1.1"
