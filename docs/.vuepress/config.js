@@ -21,7 +21,7 @@ module.exports = {
       {
         text: '首页',
         link: '/',
-        icon: 'icon-shouye',
+        icon: 'iconfont icon-shouye',
       },
     ],
     // 侧边栏配置
