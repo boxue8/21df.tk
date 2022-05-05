@@ -1,5 +1,6 @@
 // .vuepress/config.js
 const { hopeTheme } = require("vuepress-theme-hope");
+const { docsearchPlugin } = require('@vuepress/plugin-docsearch')
 
 module.exports = {
   // 站点语言
@@ -34,4 +35,12 @@ module.exports = {
     // 最近更新时间戳标签的文字
     lastUpdatedText: '上次更新',
   }),
+  plugins: [
+    // docsearch搜索
+    docsearchPlugin({
+      appId: 'QDVRVA5V1Q',
+      apiKey: '2e8d1dad53f5b2fd3799157e324a0f09',
+      indexName: '21df',
+    }),
+  ],
 };
