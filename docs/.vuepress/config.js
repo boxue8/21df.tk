@@ -45,6 +45,14 @@ module.exports = {
         hostname: 'https://www.21df.tk',
         atom: true,
       },
+      // 评论
+      comment: {
+        type: "twikoo",
+        envId: "https://comment.21df.tk/",
+      },
+      sitemap: {
+        hostname: 'https://www.21df.tk',
+      },
     },
   }),
   plugins: [
