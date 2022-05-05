@@ -44,6 +44,11 @@ module.exports = {
       pwa: {
         pwa: true,
       },
+      // 启用feed插件
+      feed: {
+        hostname: 'https://www.21df.tk',
+        atom: true,
+      },
     },
   }),
   plugins: [
