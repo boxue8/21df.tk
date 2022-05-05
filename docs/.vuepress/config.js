@@ -9,6 +9,10 @@ module.exports = {
   title: '爱分享',
   // 站点描述
   description: '写代码是热爱，写到世界充满爱',
+  // 显示页脚
+  displayFooter: 'true',
+  // 页脚内容
+  footer: "Copyright © 2021-2022 爱分享",
   // 主题配置
   theme: hopeTheme({
     // 导航栏菜单
