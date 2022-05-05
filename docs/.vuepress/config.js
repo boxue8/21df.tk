@@ -2,7 +2,36 @@
 const { hopeTheme } = require("vuepress-theme-hope");
 
 module.exports = {
+  // 站点语言
+  lang: 'zh-CN',
+  // 站点标题
+  title: '爱分享',
+  // 站点描述
+  description: '写代码是热爱，写到世界充满爱',
+  // 主题配置
   theme: hopeTheme({
-    // 此处放置主题配置
+    // 导航栏菜单
+    navbar: [
+      {
+        text: '首页',
+        link: '/',
+      },
+    ],
+    // 侧边栏配置
+    sidebar: [
+      '/',
+      '/html/1.md',
+      '/html/2.md',
+      '/html/3.md',
+      '/html/4.md',
+      '/html/5.md',
+      '/html/6.md',
+    ],
+    // Logo 图片
+    logo: '/logo.svg',
+    // 贡献者列表标签的文字
+    contributorsText: '贡献者',
+    // 最近更新时间戳标签的文字
+    lastUpdatedText: '上次更新',
   }),
 };
