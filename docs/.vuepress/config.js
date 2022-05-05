@@ -1,8 +1,9 @@
 // .vuepress/config.js
 const { hopeTheme } = require("vuepress-theme-hope");
 const { docsearchPlugin } = require('@vuepress/plugin-docsearch')
-
+// 站点配置
 module.exports = {
+  head: [['link', { rel: 'stylesheet', href: '//at.alicdn.com/t/font_3376797_ykbav7d1di.css' }]],
   // 站点语言
   lang: 'zh-CN',
   // 站点标题
@@ -20,6 +21,7 @@ module.exports = {
       {
         text: '首页',
         link: '/',
+        icon: 'icon-shouye',
       },
     ],
     // 侧边栏配置
