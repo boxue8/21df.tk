@@ -9,12 +9,12 @@ module.exports = {
   title: '爱分享',
   // 站点描述
   description: '写代码是热爱，写到世界充满爱',
-  // 显示页脚
-  displayFooter: 'true',
-  // 页脚内容
-  footer: "Copyright © 2021-2022 爱分享",
   // 主题配置
   theme: hopeTheme({
+    // 显示页脚
+    displayFooter: true,
+    // 页脚内容
+    footer: "Copyright © 2021-2022 爱分享",
     // 导航栏菜单
     navbar: [
       {
@@ -34,10 +34,6 @@ module.exports = {
     ],
     // Logo 图片
     logo: '/logo.svg',
-    // 贡献者列表标签的文字
-    contributorsText: '贡献者',
-    // 最近更新时间戳标签的文字
-    lastUpdatedText: '上次更新',
     // 主题插件配置
     plugins: {
       // 启用代码复制插件
