@@ -9,11 +9,6 @@ module.exports = {
   title: '爱分享',
   // 站点描述
   description: '写代码是热爱，写到世界充满爱',
-
-  head: [
-    ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
-  ],
-
   // 主题配置
   theme: hopeTheme({
     // 导航栏菜单
@@ -39,10 +34,13 @@ module.exports = {
     contributorsText: '贡献者',
     // 最近更新时间戳标签的文字
     lastUpdatedText: '上次更新',
+    // 主题插件配置
     plugins: {
+      // 启用代码复制插件
       copyCode: {
         showInMobile: true,
       },
+      // 启用pwa
       pwa: {
         pwa: true,
       },
