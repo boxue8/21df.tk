@@ -40,10 +40,6 @@ module.exports = {
       copyCode: {
         showInMobile: true,
       },
-      // 启用pwa
-      pwa: {
-        pwa: true,
-      },
       // 启用feed插件
       feed: {
         hostname: 'https://www.21df.tk',
