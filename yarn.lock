@@ -4747,7 +4747,7 @@ vuepress-plugin-sitemap2@2.0.0-beta.51:
     "@vuepress/utils" "2.0.0-beta.43"
     sitemap "^7.1.1"
 
-vuepress-theme-hope@^2.0.0-beta.50:
+vuepress-theme-hope@^2.0.0-beta.51:
   version "2.0.0-beta.51"
   resolved "https://registry.npmmirror.com/vuepress-theme-hope/-/vuepress-theme-hope-2.0.0-beta.51.tgz#a4aa5a464c6710eabc52451659def456ca4caee0"
   integrity sha512-mxKoXTuoLSJvf+zC6s6ezIx70fZKlkdHVpTzMmEzRRSFzCbMSpzaUcIpl9NCUkJCCwFK+PUmWfaOExVcOHYI7A==
