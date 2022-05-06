@@ -1118,6 +1118,23 @@
     vue "^3.2.33"
     vue-router "^4.0.15"
 
+"@mr-hope/vuepress-shared@2.0.0-beta.51":
+  version "2.0.0-beta.51"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-shared/-/vuepress-shared-2.0.0-beta.51.tgz#f3150455e9b57816e5169a7ffa6355f705e8e2ff"
+  integrity sha512-EldGNupYvOU/EbUZiOtm+VjCYN/1xgA5ALBJFIdp8GjSOF6RUsaTqT7WyB6iMwqnbBq8l/JpH9ZCjbe605D/Ww==
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.43"
+    "@vuepress/plugin-git" "2.0.0-beta.43"
+    "@vuepress/plugin-theme-data" "2.0.0-beta.43"
+    "@vuepress/shared" "2.0.0-beta.43"
+    "@vuepress/utils" "2.0.0-beta.43"
+    chalk "^4.1.2"
+    dayjs "^1.11.1"
+    execa "^5.1.1"
+    ora "^5.4.1"
+    vue "^3.2.33"
+    vue-router "^4.0.15"
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.npmmirror.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -4741,12 +4758,22 @@ vuepress-plugin-seo2@2.0.0-beta.50:
     "@vuepress/shared" "2.0.0-beta.43"
     "@vuepress/utils" "2.0.0-beta.43"
 
-vuepress-plugin-sitemap2@2.0.0-beta.50, vuepress-plugin-sitemap2@^2.0.0-beta.50:
+vuepress-plugin-sitemap2@2.0.0-beta.50:
   version "2.0.0-beta.50"
   resolved "https://registry.npmmirror.com/vuepress-plugin-sitemap2/-/vuepress-plugin-sitemap2-2.0.0-beta.50.tgz#b7aa84aecefdc6344e9ae0ee8422586ea96fd334"
   integrity sha512-Wk7Xh2LZt2cxxKeExb6tKkmpjCMR/HdBRBivC53OjWinZ/AX3PIzuHML3nfq4KKqkVQYlNl0UhLBx0wr7xTv5g==
   dependencies:
     "@mr-hope/vuepress-shared" "2.0.0-beta.50"
+    "@vuepress/shared" "2.0.0-beta.43"
+    "@vuepress/utils" "2.0.0-beta.43"
+    sitemap "^7.1.1"
+
+vuepress-plugin-sitemap2@^2.0.0-beta.51:
+  version "2.0.0-beta.51"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-sitemap2/-/vuepress-plugin-sitemap2-2.0.0-beta.51.tgz#9d4eb4263c0461713855b0812ce3ab74446ff3c0"
+  integrity sha512-Y1xAqrp9OuzMEoUEQGGZerQRUeRGPTA+NfiqigofLVVXXkPZGM7SW8ZTiwPXuQFyGBq/mH3NFVVqOlp7sByuAA==
+  dependencies:
+    "@mr-hope/vuepress-shared" "2.0.0-beta.51"
     "@vuepress/shared" "2.0.0-beta.43"
     "@vuepress/utils" "2.0.0-beta.43"
     sitemap "^7.1.1"
