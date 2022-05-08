@@ -2,3 +2,5 @@ node_modules
 .temp
 .cache
 .idea
+.yarn/install-state.gz
+..yarn/cache
