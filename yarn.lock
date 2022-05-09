@@ -1499,11 +1499,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mr-hope/vuepress-plugin-components@npm:2.0.0-beta.52":
-  version: 2.0.0-beta.52
-  resolution: "@mr-hope/vuepress-plugin-components@npm:2.0.0-beta.52"
+"@mr-hope/vuepress-plugin-components@npm:2.0.0-beta.53":
+  version: 2.0.0-beta.53
+  resolution: "@mr-hope/vuepress-plugin-components@npm:2.0.0-beta.53"
   dependencies:
-    "@mr-hope/vuepress-shared": 2.0.0-beta.52
+    "@mr-hope/vuepress-shared": 2.0.0-beta.53
     "@vuepress/client": 2.0.0-beta.43
     "@vuepress/plugin-theme-data": 2.0.0-beta.43
     "@vuepress/utils": 2.0.0-beta.43
@@ -1512,20 +1512,20 @@ __metadata:
     ts-debounce: ^4.0.0
     vue: ^3.2.33
     vue-router: ^4.0.15
-    vuepress-plugin-reading-time2: 2.0.0-beta.52
-    vuepress-plugin-sass-palette: 2.0.0-beta.52
+    vuepress-plugin-reading-time2: 2.0.0-beta.53
+    vuepress-plugin-sass-palette: 2.0.0-beta.53
   peerDependencies:
     sass-loader: ^12.6.0
   peerDependenciesMeta:
     sass-loader:
       optional: true
-  checksum: b32cc9ad25590853098aceec3ac3b03a1994743f3d7b3dc1b370f4a7991f7a57ed6b4a29d2e7e44d87da58c771c2e9148221263c1d3936beaeb6e29108671a2d
+  checksum: 4596077fa504b6278b2761dd030954da31a775b2f2d96acc81fae9ad62dd92b0856ffcacb67279df795c2fcf725f0d79bdee9362f38b5685a7ac34d466e56bf1
   languageName: node
   linkType: hard
 
-"@mr-hope/vuepress-shared@npm:2.0.0-beta.52":
-  version: 2.0.0-beta.52
-  resolution: "@mr-hope/vuepress-shared@npm:2.0.0-beta.52"
+"@mr-hope/vuepress-shared@npm:2.0.0-beta.53":
+  version: 2.0.0-beta.53
+  resolution: "@mr-hope/vuepress-shared@npm:2.0.0-beta.53"
   dependencies:
     "@vuepress/client": 2.0.0-beta.43
     "@vuepress/plugin-git": 2.0.0-beta.43
@@ -1533,12 +1533,12 @@ __metadata:
     "@vuepress/shared": 2.0.0-beta.43
     "@vuepress/utils": 2.0.0-beta.43
     chalk: ^4.1.2
-    dayjs: ^1.11.1
+    dayjs: ^1.11.2
     execa: ^5.1.1
     ora: ^5.4.1
     vue: ^3.2.33
     vue-router: ^4.0.15
-  checksum: c5931f0d92374bfd5c4de2a3cf96e91577cfca69a625dfe487744f0039910cc0470a35089959d75eb01161115756c8f3780a59107d25b5ce7ca97743d756d50e
+  checksum: 847dcb619ebfdd71ecc2c3317d3d475b7f602c936926a27e63a874bad79fba42c3d6d4fcd042e91da2b374e18db597e9e9c181af8e3ebbecaa46b4e5f0e7d39d
   languageName: node
   linkType: hard
 
@@ -3628,7 +3628,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dayjs@npm:^1.11.1":
+"dayjs@npm:^1.11.2":
   version: 1.11.2
   resolution: "dayjs@npm:1.11.2"
   checksum: 78f8bd04a9e5f5554aa06eacda65a7d59e162d39f621a46fd34fb3b51367c3662426d86b4e2f4ac535f81e0c4d5af3e8a83b37e672412eb556267d726c61f8f3
@@ -3711,7 +3711,7 @@ __metadata:
   dependencies:
     "@vuepress/plugin-docsearch": ^2.0.0-beta.43
     vuepress: next
-    vuepress-theme-hope: ^2.0.0-beta.52
+    vuepress-theme-hope: ^2.0.0-beta.53
   languageName: unknown
   linkType: soft
 
@@ -6877,26 +6877,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vuepress-plugin-blog2@npm:2.0.0-beta.52":
-  version: 2.0.0-beta.52
-  resolution: "vuepress-plugin-blog2@npm:2.0.0-beta.52"
+"vuepress-plugin-blog2@npm:2.0.0-beta.53":
+  version: 2.0.0-beta.53
+  resolution: "vuepress-plugin-blog2@npm:2.0.0-beta.53"
   dependencies:
-    "@mr-hope/vuepress-shared": 2.0.0-beta.52
+    "@mr-hope/vuepress-shared": 2.0.0-beta.53
     "@vuepress/client": 2.0.0-beta.43
     "@vuepress/core": 2.0.0-beta.43
     "@vuepress/shared": 2.0.0-beta.43
     chokidar: ^3.5.3
     vue: ^3.2.33
     vue-router: ^4.0.15
-  checksum: e57bf17b5fb9cde6078edbe18ddfda7ccd535b7acbb40093b658581cea775146ee2d2eabb79905fadf729a5d8a0c72cbc71333dedc202213aa80c8c190690cdc
+  checksum: 7079e4c833fe8538ae6d0b272e7da203fae16197fbd92bd478b102d1fc060029a2f345193c18c09dd92982e3d8ba953edd6f19dc91f7551169fcf86fbfac0f33
   languageName: node
   linkType: hard
 
-"vuepress-plugin-comment2@npm:2.0.0-beta.52":
-  version: 2.0.0-beta.52
-  resolution: "vuepress-plugin-comment2@npm:2.0.0-beta.52"
+"vuepress-plugin-comment2@npm:2.0.0-beta.53":
+  version: 2.0.0-beta.53
+  resolution: "vuepress-plugin-comment2@npm:2.0.0-beta.53"
   dependencies:
-    "@mr-hope/vuepress-shared": 2.0.0-beta.52
+    "@mr-hope/vuepress-shared": 2.0.0-beta.53
     "@vuepress/client": 2.0.0-beta.43
     "@vuepress/utils": 2.0.0-beta.43
     "@waline/client": ^2.3.2
@@ -6904,68 +6904,68 @@ __metadata:
     twikoo: ^1.5.9
     vue: ^3.2.33
     vue-router: ^4.0.15
-    vuepress-plugin-sass-palette: 2.0.0-beta.52
+    vuepress-plugin-sass-palette: 2.0.0-beta.53
   peerDependencies:
     sass-loader: ^12.6.0
   peerDependenciesMeta:
     sass-loader:
       optional: true
-  checksum: e2e905989aa77565c63f2e4eb45d953e26637d9fbf6eb2bbe0cf484761f732f2ed3251afe42e904e3522b119fba448b775b96d6481f152806c70b2af4d3f1f3d
+  checksum: 8b04a334ef27ea0c83cc1e83eeb5b9b8fc0e0aa06b0c326b6d7e38da50ce7a1ed4580fc020ef12544ebf662d12e18db13cba6de59588f3a8c518c47331d3a740
   languageName: node
   linkType: hard
 
-"vuepress-plugin-copy-code2@npm:2.0.0-beta.52":
-  version: 2.0.0-beta.52
-  resolution: "vuepress-plugin-copy-code2@npm:2.0.0-beta.52"
+"vuepress-plugin-copy-code2@npm:2.0.0-beta.53":
+  version: 2.0.0-beta.53
+  resolution: "vuepress-plugin-copy-code2@npm:2.0.0-beta.53"
   dependencies:
-    "@mr-hope/vuepress-shared": 2.0.0-beta.52
+    "@mr-hope/vuepress-shared": 2.0.0-beta.53
     "@vuepress/client": 2.0.0-beta.43
     "@vuepress/utils": 2.0.0-beta.43
     balloon-css: ^1.2.0
     vue: ^3.2.33
     vue-router: ^4.0.15
-    vuepress-plugin-sass-palette: 2.0.0-beta.52
+    vuepress-plugin-sass-palette: 2.0.0-beta.53
   peerDependencies:
     sass-loader: ^12.6.0
   peerDependenciesMeta:
     sass-loader:
       optional: true
-  checksum: 4c643620e7a984e4ef4bf06f71577be8b81ddfd2aa8331ea545a237ce91b12b2ae18b0f83f9becc9cc6063ff592026190fac70ec200ef1dd0c2e02d2225c5f95
+  checksum: 2910ede5cdd39a727773366bf723871c7aaa515cec9a12dece5a908baa2a824f3f57eadeeb21168b9c75086fe14a17f273ade2835df87d5ba9ebf9058cd59dc5
   languageName: node
   linkType: hard
 
-"vuepress-plugin-copyright2@npm:2.0.0-beta.52":
-  version: 2.0.0-beta.52
-  resolution: "vuepress-plugin-copyright2@npm:2.0.0-beta.52"
+"vuepress-plugin-copyright2@npm:2.0.0-beta.53":
+  version: 2.0.0-beta.53
+  resolution: "vuepress-plugin-copyright2@npm:2.0.0-beta.53"
   dependencies:
-    "@mr-hope/vuepress-shared": 2.0.0-beta.52
+    "@mr-hope/vuepress-shared": 2.0.0-beta.53
     "@vuepress/client": 2.0.0-beta.43
     "@vuepress/shared": 2.0.0-beta.43
     "@vuepress/utils": 2.0.0-beta.43
     "@vueuse/core": ^8.4.2
     vue: ^3.2.33
-  checksum: 62fef264e9302731dded726c319c50c33a19279a70cc8311b4443c487da5e4e46a515a68112a138d3fc937bcc7508460a2f2c82d21747293727fe7cd267026da
+  checksum: e8080eac98da98ce50f00b1ea6a6c94cd0ed268212759a9d0ebb5af818d4d1368fb2b73c18692ceec6814695124ccc137f89aeb6af47e81b1ad8bb4eac8c8f82
   languageName: node
   linkType: hard
 
-"vuepress-plugin-feed2@npm:2.0.0-beta.52":
-  version: 2.0.0-beta.52
-  resolution: "vuepress-plugin-feed2@npm:2.0.0-beta.52"
+"vuepress-plugin-feed2@npm:2.0.0-beta.53":
+  version: 2.0.0-beta.53
+  resolution: "vuepress-plugin-feed2@npm:2.0.0-beta.53"
   dependencies:
-    "@mr-hope/vuepress-shared": 2.0.0-beta.52
+    "@mr-hope/vuepress-shared": 2.0.0-beta.53
     "@vuepress/shared": 2.0.0-beta.43
     "@vuepress/utils": 2.0.0-beta.43
     xml-js: ^1.6.11
-  checksum: b83d40abccd7a0de93f0350ee787ec635bbf865706c67cba02644e57e16c662986dfb42652964a72644938f219baf705689f872fabc4c6745ad40a6d45077ed5
+  checksum: 04aac7c9901f3dc2ca54112dc03ae285036b58e9047a047e2599ce50b75331fcf4de5a02edc5f3f374d050ae2b6292a6f6b2e6cbdfed8ba2f871e1ea9fc81585
   languageName: node
   linkType: hard
 
-"vuepress-plugin-md-enhance@npm:2.0.0-beta.52":
-  version: 2.0.0-beta.52
-  resolution: "vuepress-plugin-md-enhance@npm:2.0.0-beta.52"
+"vuepress-plugin-md-enhance@npm:2.0.0-beta.53":
+  version: 2.0.0-beta.53
+  resolution: "vuepress-plugin-md-enhance@npm:2.0.0-beta.53"
   dependencies:
     "@babel/core": "*"
-    "@mr-hope/vuepress-shared": 2.0.0-beta.52
+    "@mr-hope/vuepress-shared": 2.0.0-beta.53
     "@types/katex": ^0.14.0
     "@types/markdown-it": ^12.2.3
     "@types/mermaid": ^8.2.9
@@ -6983,42 +6983,42 @@ __metadata:
     ts-debounce: ^4.0.0
     vue: ^3.2.33
     vue-router: ^4.0.15
-    vuepress-plugin-sass-palette: 2.0.0-beta.52
+    vuepress-plugin-sass-palette: 2.0.0-beta.53
   peerDependencies:
     sass-loader: ^12.6.0
   peerDependenciesMeta:
     sass-loader:
       optional: true
-  checksum: 446f19fe7e26eefb398576b91d4a185a4ad7bd3765f0e9da08641e54f38782d84603fba611df9b80e07aec6153714fa01f01910cfa13075fbae0e54f4ce91dcd
+  checksum: 668724d807bdf6deb566196de1022d408e9270bf3391a2a90ec4c8caff09d2cffc526a5034ee63277a9b24bfcd1165d5e6ad566181a454b3464309b22e5de925
   languageName: node
   linkType: hard
 
-"vuepress-plugin-photo-swipe@npm:2.0.0-beta.52":
-  version: 2.0.0-beta.52
-  resolution: "vuepress-plugin-photo-swipe@npm:2.0.0-beta.52"
+"vuepress-plugin-photo-swipe@npm:2.0.0-beta.53":
+  version: 2.0.0-beta.53
+  resolution: "vuepress-plugin-photo-swipe@npm:2.0.0-beta.53"
   dependencies:
-    "@mr-hope/vuepress-shared": 2.0.0-beta.52
+    "@mr-hope/vuepress-shared": 2.0.0-beta.53
     "@vuepress/client": 2.0.0-beta.43
     "@vuepress/utils": 2.0.0-beta.43
     "@vueuse/core": ^8.4.2
     photoswipe: ^5.2.4
     vue: ^3.2.33
     vue-router: ^4.0.15
-    vuepress-plugin-sass-palette: 2.0.0-beta.52
+    vuepress-plugin-sass-palette: 2.0.0-beta.53
   peerDependencies:
     sass-loader: ^12.6.0
   peerDependenciesMeta:
     sass-loader:
       optional: true
-  checksum: c328008ed7caafc9c8a3b38fbcc9a3ae684d29435533751612b55610b5e3e91cca802b8941025706161a86673645ed2e7c1f626b03cb26fca2b880cad90bd8f5
+  checksum: 92cf7fe85077359c6b9cfad0495ebc763620462976dedf85e3e3ad6ef3e1b19bb6c1cd734d307005fc7ac3803a601006f60c30073dd0bbe4d098c85a125b7782
   languageName: node
   linkType: hard
 
-"vuepress-plugin-pwa2@npm:2.0.0-beta.52":
-  version: 2.0.0-beta.52
-  resolution: "vuepress-plugin-pwa2@npm:2.0.0-beta.52"
+"vuepress-plugin-pwa2@npm:2.0.0-beta.53":
+  version: 2.0.0-beta.53
+  resolution: "vuepress-plugin-pwa2@npm:2.0.0-beta.53"
   dependencies:
-    "@mr-hope/vuepress-shared": 2.0.0-beta.52
+    "@mr-hope/vuepress-shared": 2.0.0-beta.53
     "@vuepress/client": 2.0.0-beta.43
     "@vuepress/shared": 2.0.0-beta.43
     "@vuepress/utils": 2.0.0-beta.43
@@ -7027,31 +7027,31 @@ __metadata:
     register-service-worker: ^1.7.2
     vue: ^3.2.33
     vue-router: ^4.0.15
-    vuepress-plugin-sass-palette: 2.0.0-beta.52
+    vuepress-plugin-sass-palette: 2.0.0-beta.53
     workbox-build: ^6.5.3
   peerDependencies:
     sass-loader: ^12.6.0
   peerDependenciesMeta:
     sass-loader:
       optional: true
-  checksum: d00fa0082f4437397dc7b961fbf8d6129d201ba5a8756852b57f76260c37b96b328b30c2fe32dd05f0a84c7dff96f4af6a88d84b9b04ac4690e4df5ddc24c27a
+  checksum: 1e11b482b6652ddc1178d3979c3aac63916a92772b9c83b7ab1c7287e1fa97f5502603b8b23fe42a7d4ed4be5ea3548a325faf50ae2f2dde29f5f253bb979e6d
   languageName: node
   linkType: hard
 
-"vuepress-plugin-reading-time2@npm:2.0.0-beta.52":
-  version: 2.0.0-beta.52
-  resolution: "vuepress-plugin-reading-time2@npm:2.0.0-beta.52"
+"vuepress-plugin-reading-time2@npm:2.0.0-beta.53":
+  version: 2.0.0-beta.53
+  resolution: "vuepress-plugin-reading-time2@npm:2.0.0-beta.53"
   dependencies:
-    "@mr-hope/vuepress-shared": 2.0.0-beta.52
-  checksum: 2ea31873cc75d609b6e5c6f79b763b374e556b3070e28999c608c257f4bb728ab276ac8d8643fc90b70ebbd2f57a2a38551a3b064f75d52457d2c05d3328f022
+    "@mr-hope/vuepress-shared": 2.0.0-beta.53
+  checksum: ae8225facaceaa9c941561421bdcf02b2213e4a5a4849ade6dabad17aad7e5f4b27aa0ae5604743787e2726e71ff2b068aabcbb5f896626ef9f7bcc9acb333d0
   languageName: node
   linkType: hard
 
-"vuepress-plugin-sass-palette@npm:2.0.0-beta.52":
-  version: 2.0.0-beta.52
-  resolution: "vuepress-plugin-sass-palette@npm:2.0.0-beta.52"
+"vuepress-plugin-sass-palette@npm:2.0.0-beta.53":
+  version: 2.0.0-beta.53
+  resolution: "vuepress-plugin-sass-palette@npm:2.0.0-beta.53"
   dependencies:
-    "@mr-hope/vuepress-shared": 2.0.0-beta.52
+    "@mr-hope/vuepress-shared": 2.0.0-beta.53
     "@vuepress/utils": 2.0.0-beta.43
     chokidar: ^3.5.3
     sass: ^1.51.0
@@ -7060,39 +7060,39 @@ __metadata:
   peerDependenciesMeta:
     sass-loader:
       optional: true
-  checksum: 81be6738a82d01a42c8e32af1218ccae53a384bd114122da9d788c9820b4a497ca87f1bdc2858989b5ca5fd0216061181853f286279bc7c6e642e129e03ecfa0
+  checksum: 6d715755a6916c9a7416e41cfc68df1535275eaf9ab8208656efbe08796ec11d1ca797ce1b219f9021d011d226c3d02cd167760263ec43be0d73cd1d907ae1e8
   languageName: node
   linkType: hard
 
-"vuepress-plugin-seo2@npm:2.0.0-beta.52":
-  version: 2.0.0-beta.52
-  resolution: "vuepress-plugin-seo2@npm:2.0.0-beta.52"
+"vuepress-plugin-seo2@npm:2.0.0-beta.53":
+  version: 2.0.0-beta.53
+  resolution: "vuepress-plugin-seo2@npm:2.0.0-beta.53"
   dependencies:
-    "@mr-hope/vuepress-shared": 2.0.0-beta.52
+    "@mr-hope/vuepress-shared": 2.0.0-beta.53
     "@vuepress/shared": 2.0.0-beta.43
     "@vuepress/utils": 2.0.0-beta.43
-  checksum: f21cca50db0a21f34634d0164293fbbb81e4586de18e76a4251cfaf34eadc6ce29af5b3ac28b207a1bf7be233aebc808df19d2c474b8ddff63df22d204fb6df3
+  checksum: 0cfcc3e79b6a7abfd3b876d36fa75d762c32d2d8a07db909b4a55032ef25e1ab0510686063b60e2a2066f2aae84e134f7c0703b9b373c73eea7acf7c95d071dc
   languageName: node
   linkType: hard
 
-"vuepress-plugin-sitemap2@npm:2.0.0-beta.52":
-  version: 2.0.0-beta.52
-  resolution: "vuepress-plugin-sitemap2@npm:2.0.0-beta.52"
+"vuepress-plugin-sitemap2@npm:2.0.0-beta.53":
+  version: 2.0.0-beta.53
+  resolution: "vuepress-plugin-sitemap2@npm:2.0.0-beta.53"
   dependencies:
-    "@mr-hope/vuepress-shared": 2.0.0-beta.52
+    "@mr-hope/vuepress-shared": 2.0.0-beta.53
     "@vuepress/shared": 2.0.0-beta.43
     "@vuepress/utils": 2.0.0-beta.43
     sitemap: ^7.1.1
-  checksum: 242cfeb10be71ccfcfbf8a4fc8111e1b7e47e47b942056f3101fb5c72247fc8bbd72398eb604859bcae8108b7975ecbbdfab364e7b8a6ec34d54f1aea55498a9
+  checksum: ccfacf338cf0c44d3b3a37ca47d419de3cf2380e031ce26f176eacbe9d67852ba2c582367c2f8e8e53671ff1660143c7768f834e7249165a2eaf55424c21c183
   languageName: node
   linkType: hard
 
-"vuepress-theme-hope@npm:^2.0.0-beta.52":
-  version: 2.0.0-beta.52
-  resolution: "vuepress-theme-hope@npm:2.0.0-beta.52"
+"vuepress-theme-hope@npm:^2.0.0-beta.53":
+  version: 2.0.0-beta.53
+  resolution: "vuepress-theme-hope@npm:2.0.0-beta.53"
   dependencies:
-    "@mr-hope/vuepress-plugin-components": 2.0.0-beta.52
-    "@mr-hope/vuepress-shared": 2.0.0-beta.52
+    "@mr-hope/vuepress-plugin-components": 2.0.0-beta.53
+    "@mr-hope/vuepress-shared": 2.0.0-beta.53
     "@vuepress/cli": 2.0.0-beta.43
     "@vuepress/client": 2.0.0-beta.43
     "@vuepress/plugin-active-header-links": 2.0.0-beta.43
@@ -7111,24 +7111,24 @@ __metadata:
     ts-debounce: ^4.0.0
     vue: ^3.2.33
     vue-router: ^4.0.15
-    vuepress-plugin-blog2: 2.0.0-beta.52
-    vuepress-plugin-comment2: 2.0.0-beta.52
-    vuepress-plugin-copy-code2: 2.0.0-beta.52
-    vuepress-plugin-copyright2: 2.0.0-beta.52
-    vuepress-plugin-feed2: 2.0.0-beta.52
-    vuepress-plugin-md-enhance: 2.0.0-beta.52
-    vuepress-plugin-photo-swipe: 2.0.0-beta.52
-    vuepress-plugin-pwa2: 2.0.0-beta.52
-    vuepress-plugin-reading-time2: 2.0.0-beta.52
-    vuepress-plugin-sass-palette: 2.0.0-beta.52
-    vuepress-plugin-seo2: 2.0.0-beta.52
-    vuepress-plugin-sitemap2: 2.0.0-beta.52
+    vuepress-plugin-blog2: 2.0.0-beta.53
+    vuepress-plugin-comment2: 2.0.0-beta.53
+    vuepress-plugin-copy-code2: 2.0.0-beta.53
+    vuepress-plugin-copyright2: 2.0.0-beta.53
+    vuepress-plugin-feed2: 2.0.0-beta.53
+    vuepress-plugin-md-enhance: 2.0.0-beta.53
+    vuepress-plugin-photo-swipe: 2.0.0-beta.53
+    vuepress-plugin-pwa2: 2.0.0-beta.53
+    vuepress-plugin-reading-time2: 2.0.0-beta.53
+    vuepress-plugin-sass-palette: 2.0.0-beta.53
+    vuepress-plugin-seo2: 2.0.0-beta.53
+    vuepress-plugin-sitemap2: 2.0.0-beta.53
   peerDependencies:
     sass-loader: ^12.6.0
   peerDependenciesMeta:
     sass-loader:
       optional: true
-  checksum: 7addd82eecf683d458a9e56a96c4fd344137f49d9483a71ebd49957135d100fbb106fb554a4c242826c1521440ec7a6536e5fbcd650ded79930763c4318581ba
+  checksum: 8ec4dc2ae06db66b2e5918225a6624447edc1f973ddc5ed98b35a405e76ee57d489267656f48465ea434e4485a71ed951f9adf510336da05e9fffdab1b8b624c
   languageName: node
   linkType: hard
 
