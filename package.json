@@ -1,15 +1,31 @@
 {
-  "name": "docs",
-  "packageManager": "yarn@3.2.0",
-  "devDependencies": {
-    "@vuepress/plugin-docsearch": "^2.0.0-beta.43",
-    "vuepress": "next"
+  "name": "devdocs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
   },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-  "dependencies": {
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boxue8/21df.tk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boxue8/21df.tk/issues"
+  },
+  "homepage": "https://github.com/boxue8/21df.tk#readme",
+  "devDependencies": {
+    "@vuepress/client": "^2.0.0-beta.43",
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.43",
+    "vue": "^3.2.33",
+    "vuepress": "^2.0.0-beta.43",
     "vuepress-theme-hope": "^2.0.0-beta.56"
   }
 }
