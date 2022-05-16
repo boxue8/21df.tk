@@ -3,6 +3,7 @@ const { hopeTheme } = require("vuepress-theme-hope");
 const { docsearchPlugin } = require('@vuepress/plugin-docsearch')
 // 站点配置
 module.exports = {
+  shouldPrefetch: false,
   head: [['link', { rel: 'stylesheet', href: '//at.alicdn.com/t/font_3376797_ykbav7d1di.css' }]],
   // 站点语言
   lang: 'zh-CN',
