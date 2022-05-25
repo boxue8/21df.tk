@@ -56,6 +56,9 @@ module.exports = {
       sitemap: {
         hostname: 'https://www.21df.tk',
       },
+      pwa: {
+
+      },
     },
   }),
   plugins: [
