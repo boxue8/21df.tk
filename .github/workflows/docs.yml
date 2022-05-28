@@ -1,4 +1,4 @@
-name: Deploy V2 Docs
+name: Deploy Docs
 
 on:
   push:
@@ -15,25 +15,44 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
+      - uses: actions/setup-node@v3
         with:
-          version: 7
+          node-version: "16"
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - name: restore lerna
+        uses: actions/cache@v3
+        id: lerna-cache
         with:
-          node-version: 16
-          cache: pnpm
-          
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+          path: |
+            node_modules
+            **/node_modules
+          key: ${{ runner.os }}-lerna-${{ hashFiles('yarn.lock') }}
+
+      - name: Get yarn cache directory path
+        if: steps.lerna-cache.outputs.cache-hit != 'true'
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - name: yarn-cache
+        if: steps.lerna-cache.outputs.cache-hit != 'true'
+        uses: actions/cache@v3
+        id: yarn-cache
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+      - name: Install Deps
+        if: steps.lerna-cache.outputs.cache-hit != 'true'
+        run: yarn install --frozen-lockfile
 
       - name: Docs build
         env:
+          BASE: /21dfsource/
+          HOSTNAME: https://www.21df.tk
           NODE_OPTIONS: --max_old_space_size=4096
-        run:  pnpm docs:build
-
+        run: yarn run docs:build
+      
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
