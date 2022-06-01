@@ -13,6 +13,15 @@ module.exports = {
   description: '写代码是热爱，写到世界充满爱',
   // 主题配置
   theme: hopeTheme({
+    // 主题颜色
+    themeColor: {
+      blue: "#2196f3",
+      red: "#f26d6d",
+      green: "#3eaf7c",
+      orange: "#fb9b5f",
+    },
+    // 全屏按钮
+    fullscreen: true,
     // 显示页脚
     displayFooter: true,
     // 页脚内容
