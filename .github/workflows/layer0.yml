@@ -27,7 +27,7 @@ name: Deploy branch to Layer0
 
 on:
   push:
-    branches: [master, main]
+    branches: main
   pull_request:
   release:
     types: [published]
