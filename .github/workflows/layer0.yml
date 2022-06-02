@@ -63,8 +63,7 @@ jobs:
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
             ${{ runner.os }}-
-      - name: Install packages
-        run: npm ci # if using npm for your project
+      - name: Install package
         run: rm -rf node_modules && yarn install --frozen-lockfile # if using yarn for your project
       - name: Deploy to Layer0
         run: |
