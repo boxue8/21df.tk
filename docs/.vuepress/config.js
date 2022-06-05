@@ -59,7 +59,7 @@ module.exports = {
       },
       // 评论
       comment: {
-        type: "twikoo",
+        provider: "Twikoo",
         envId: "https://comment.21df.tk/",
       },
       sitemap: {
