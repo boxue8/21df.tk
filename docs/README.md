@@ -31,3 +31,34 @@ sidebar:  false
 | ```<strong>着重文字</strong>``` | 与粗体效果相同 | ```<small>变小字号</small>``` | 变小字号 |
 |     ```<em>加重语气</em>```     | 与斜体效果相同 |   ```<big>变大字号</big>```   | 变大字号 |
 
+### 字体font标记
+
+```html
+<font face="黑体" size="2" color="##ff0066" >...</font>
+```
+
+| 属性  |   说明   |
+| :---: | :------: |
+| size  | 字体大小 |
+| color | 文本颜色 |
+| face  |   字体   |
+
+### 换行标记
+
+```html
+<br/ >
+```
+
+### 水平分隔线
+
+```html
+<hr width="" size="" color="" align="" noshade>
+```
+
+| 属性  |   说明   |
+| :---: | :------: |
+| width |   宽度   |
+| size  |   高度   |
+| color |   颜色   |
+| align | 对齐方式 |
+
