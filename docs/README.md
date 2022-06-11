@@ -2,6 +2,7 @@
 sidebar:  false
 ---
 # HTML
+
 ### 标题字标记
 
 | 标记                                               | 说明                    |
@@ -16,12 +17,11 @@ sidebar:  false
 
 ### 特殊符号对应代码
 
-| 显示结果 | 符号代码     | 显示结果 | 符号代码      | 显示结果 | 显示结果       |
-| -------- | ------------ | -------- | ------------- | -------- | -------------- |
-| &nbsp;   | ```&nbsp;``` | ©        | ```&copy;```  | &        | ```&amp;```    |
-| &lt;     | ```&lt;```   | ®        | ```&reg;```   | "        | ```&quot;```   |
-| >        | ```&gt;```   | ×        | ```&times;``` | ÷        | ```&divide;``` |
-
+| 显示结果 | 符号代码 | 显示结果 | 符号代码  | 显示结果 | 显示结果   |
+| -------- | -------- | -------- | --------- | -------- | ---------- |
+|          | `&nbsp;` | ©        | `&copy;`  | &        | `&amp;`    |
+| <        | `&lt;`   | ®        | `&reg;`   | "        | `&quot;`   |
+| >        | `&gt;`   | ×        | `&times;` | ÷        | `&divide;` |
 
 ### 常见的文本修饰标记
 
@@ -414,7 +414,8 @@ none: 表示文字无装饰。underline: 表示文字加下画线。line-through
 text-transform: capitalize | uppercase | lowercase | none
 ```
 
-capitalize: 将每个单词的第一个字母转换成大写，其余不转换。<br />uppercase: 转换成大写。lowercase:转换成小写。none: 不转换。
+capitalize: 将每个单词的第一个字母转换成大写，其余不转换。
+uppercase: 转换成大写。lowercase:转换成小写。none: 不转换。
 
 ### 水平对齐text-align
 
@@ -466,7 +467,10 @@ background-image: url("图像文件名称") | none
 background-repeat: repeat | no-repeat | repeat-x | repeat-y
 ```
 
-repeat: 使用背景图像完全填充元素大小的空间。<br />repeat-x: 使用背景图像在水平方向从左到右填充元素大小的空间。<br />repeat-y: 使用背景图像在垂直方向从上到下填充元素大小的空间。<br />no-repeat: 不使用背景图像重复填充元素。
+repeat: 使用背景图像完全填充元素大小的空间。
+repeat-x: 使用背景图像在水平方向从左到右填充元素大小的空间。
+repeat-y: 使用背景图像在垂直方向从上到下填充元素大小的空间。
+no-repeat: 不使用背景图像重复填充元素。
 
 ### 背景附件background-attachment
 
@@ -474,7 +478,8 @@ repeat: 使用背景图像完全填充元素大小的空间。<br />repeat-x: �
 background-attachment: scroll | fixed
 ```
 
-scroll: 表示在文字页面滚动时， 背景附件一起滚动。<br />fixed: 表示在文字页面滚动时， 背景附件固定不滚动。
+scroll: 表示在文字页面滚动时， 背景附件一起滚动。
+fixed: 表示在文字页面滚动时， 背景附件固定不滚动。
 
 ### 背景图像位置background-position
 
@@ -487,7 +492,8 @@ background-position: 参数1参数2
 | left&#124;center&#124;right | 表示水平方向居左、居中、居右三个不同的位置                   |
 | top&#124;center&#124;bottom | 表示垂直方向顶部、中部、底部三个不同的位置。如果仅规定了一个值， 另一个值将是center |
 | x% y%                       | x％表示水平位置， y％表示垂直位置。左上角是0% 0%， 如果仅规定了一个值，另一个值将是50% |
-| xpos ypos                   | xpos 表示水平位置， ypos 表示垂直位置。左上角是0 0, 如果仅规定了一个值，<br />另一个值将是50% |
+| xpos ypos                   | xpos 表示水平位置， ypos 表示垂直位置。左上角是0 0, 如果仅规定了一个值， |
+| 另一个值将是50%             |                                                              |
 
 ### css 列表样式
 
@@ -554,3 +560,263 @@ border-color: color
 ```css
 padding: 长度|百分比
 ```
+
+### 一级水平导航菜单——采用 ”表格＋超链接” 
+
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>一级水平导航菜单——采用 “表格＋超链接 ”</title>
+		<style type="text/css">
+			a{text-decoration:none}
+			table{width:150px;height:40px;text-align:center}
+		</style>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td>&nbsp;</td>
+				<td><a href="#">首页</a></td>
+				<td><a href="https://www.baidu.com">百度</a>
+				<td>&nbsp;</td>
+			</tr>
+		</table>
+	</body>
+</html>
+```
+
+### 一级水平导航菜单——采用 “ 无序列表＋超链接 ”
+
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>一级水平导航菜单——采用 “ 无序列表＋超链接 ”</title>
+		<style type="text/css">
+			ul{list-style: none;margin: 0;padding: 0 0 0 100px;}
+			li{float: left;}
+			a{text-decoration: none;margin: 0 10px;font-weight: bold;}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li><a href="#">首页</a></li>
+			<li><a href="https://www.baidu.com">百度</a></li>
+		</ul>
+	</body>
+</html>
+```
+
+### 二级水平导航菜单
+
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>二级水平导航菜单</title>
+		<style type="text/css">
+			ul{list-style: none;margin: 0;padding: 0px;text-align: center;}
+			ul li{float: left;width: 90px;display: inline;}
+			ul li a{background: #808080;display: block;margin: 0px;line-height: 28px;}
+			ul li ul li a{background: #499;line-height: 24px;}
+			ul li ul{visibility: hidden;}
+			ul li:hover ul{visibility: visible;}
+			a{text-decoration: none;margin: 0 10px;font-weight: bold;}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li><a href="#">首页</a></li>
+			<li><a href="https:www.baidu.com/">百度</a>
+			  <ul>
+				<li><a href="https://image.baidu.com/">百度图片</a></li>
+				<li><a href="https://map.baidu.com/">百度地图</a></li>
+			  </ul>
+			</li>
+		</ul>
+	</body>
+</html>
+```
+
+### 横向二级导航菜单
+
+```html
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title> 横向二级导航菜单</title>
+		<style type="text/css">
+			#menu{text-align: center;}
+			#submenu{ width: 900px;}
+			#menu ul li { width: 115px; list-style: none;float: left; }
+			ul li a { color: #FFF; width: 114px; padding: 0px 0px 0px 8px;text-decoration: none; display: block; background: #55A0FF;line-height: 29px;}
+			ul li #submenu{ display: none;}
+			ul li:hover #submenu{display: block;}
+			ul li #submenu ul li a:hover{ background: #333;}
+			ul li a:hover{background: #333;}
+		</style>
+	</head>
+	<body>
+		<div id="menu" class="">
+			<ul>
+				<li><a href="#">首页</a></li>
+				<li><a href="#">jQuery特效</a>
+					<div id="submenu" class="">
+						<ul>
+							<li><a href="#">图片特效</a></li>
+							<li><a href="#">导航特效</a></li>
+					</ul>
+				</div>
+				</li>
+				<li><a href="#">JavaScript特效</a></li>
+			</ul>
+		</div>
+	</body>
+</html>
+```
+
+### 常用表格标记
+
+| 属性                | 说明         | 属性            | 说明           |
+| ------------------- | ------------ | --------------- | -------------- |
+| <table></table>     | 表格标记     | <td></td>       | 表格的列标记   |
+| <caption></caption> | 表格标题标记 | <thead></thead> | 定义表格的表头 |
+| <th></th>           | 表格标头标记 | <tbody></tbody> | 定义表格的主体 |
+| <tr></tr>           | 表格的行标记 | <tfoot></tfoot> | 定义表格的页脚 |
+
+### 表格标记基本语法
+
+```html
+<table>
+  <caption>表格标题</caption>
+  <tr>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+```
+
+### 表格属性
+
+| 属性        | 值                                                           | 说明                           |
+| ----------- | ------------------------------------------------------------ | ------------------------------ |
+| align       | left&#124;center&#124;right                                  | 规定表格相对周围元素的对齐方式 |
+| bgcolor     | #·rrggbb&#124;colorname&#124;rgb(r%,g%,b%)&#124;rgb(rr,gg,bb) | 规定表格的背景颜色             |
+| border      | pixels                                                       | 规定表格边框的宽度             |
+| cellpadding | pixels&#124;%                                                | 规定单元边沿与其内容之间的空白 |
+| cellspacing | pixels&#124;%                                                | 规定单元格之间的空白           |
+| frame       | above&#124;below&#124;hsides&#124;vsides&#124;lhs&#124;rhs&#124;border&#124;void | 规定外侧边框的哪个部分是可见的 |
+| rules       | none&#124;all&#124;rows&#124;cols&#124;groups                | 规定内侧边框的哪个部分是可见的 |
+| height      | %&#124;pixels                                                | 规定表格的高度                 |
+| width       | %&#124;pixels                                                | 规定表格的宽度                 |
+
+### 表格边框属性
+
+| 属性        | 说明             | 属性             | 说明               |
+| ----------- | ---------------- | ---------------- | ------------------ |
+| border      | 表示表格边框粗细 | bordercolorlight | 表示表格亮边框颜色 |
+| bordercolor | 表示表格边框颜色 | bordercolordark  | 表示表格暗边框颜色 |
+
+```html
+<table border="" bordercolor="" bordercolorlight="" bordercolordark="">...</table>
+```
+
+### 表格的宽度和高度属性
+
+```html
+<table width="" height=""> …</table> 
+```
+
+width:单位可以是长度单位或百分比， 用千定义表格的宽度。
+height:单位可以是长度单位或百分比， 用千定义表格的高度。
+
+### 表格背景颜色与背景图像属性
+
+```html
+<table bgcolor="" background="">…<／table> 
+```
+
+bgcolor:可以用 rgb 函数、十六进制、英文颜色名称来设置背景颜色。
+background:设置背景图像，图像的路径可以是绝对路径或相对路径。
+
+### 表格边框样式属性
+
+```html
+<table frame="" rules="">...</table>
+```
+
+| frame 属性值 | 说明             | rules 属性值 | 说明               |
+| ------------ | ---------------- | ------------ | ------------------ |
+| above        | 显示上边框       | all          | 显示所有内部边框   |
+| below        | 显示下边框       | none         | 不显示内部边框     |
+| hsides       | 显示上下边框     | rows         | 仅显示行边框       |
+| vsides       | 显示左右边框     | cols         | 仅显示列边框       |
+| lhs          | 显示左边框       | groups       | 显示介于行列间边框 |
+| rhs          | 显示右边框       |              |                    |
+| border       | 显示上下左右边框 |              |                    |
+| void         | 不显示边框       |              |                    |
+
+### 表格单元格间距、单元格边距属性
+
+```html
+<table cellspacing="" cellpadding=""> … </table>
+```
+
+cellspacing:值的单位为像素或百分比， 默认值为2px。
+cellpadding:值的单位为像素或百分比。
+
+### 表格水平对齐属性
+
+```html
+<table align="left|center|right"> …</table>
+```
+
+align属性的取值可以为left（默认居左）、center（居中）和right（居右）。
+
+### 表格行的属性
+
+| 属性    | 说明           | 属性             | 说明           |
+| ------- | -------------- | ---------------- | -------------- |
+| align   | 行内容水平对齐 | bordercolor      | 行的边框颜色   |
+| valign  | 行内容垂直对齐 | bordercolorlight | 行的亮边框颜色 |
+| bgcolor | 行的背景颜色   | bordercolordark  | 行的暗边框颜色 |
+
+```html
+<table>
+  <tr align="left | center | right" valign="top | middle | bottom">
+    <td>...</td>
+    ...
+  </tr>
+</table>
+```
+
+### 表格单元格的属性
+
+| 属性值      | 说明               | 属性             | 说明               |
+| ----------- | ------------------ | ---------------- | ------------------ |
+| align       | 单元格内容水平对齐 | bordercolorlight | 单元格的亮边框颜色 |
+| valign      | 单元格内容垂直对齐 | bordercolordark  | 单元格的暗边框颜色 |
+| bgcolor     | 单元格的背景颜色   | rowspan          | 单元格跨行         |
+| background  | 单元格背景图像     | colspan          | 单元格跨列         |
+| bordercolor | 单元格的边框颜色   | width            | 单元格宽度         |
+|             |                    | height           | 单元格高度         |
+
+### 表格单元格跨列属性
+
+```html
+<td colspan=“列数”>...</td>
+```
+
