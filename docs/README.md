@@ -1,6 +1,3 @@
----
-sidebar:  false
----
 # HTML
 
 ### 标题字标记
