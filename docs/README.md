@@ -820,3 +820,192 @@ align属性的取值可以为left（默认居左）、center（居中）和right
 <td colspan=“列数”>...</td>
 ```
 
+### 表单标记
+
+```html
+<form method="POST" action="">
+	<input  type="text" name=""/>
+	<textarea name="" rows="" cols=""></textarea>
+	<select name="">
+		<option value="" selected></option>
+		<option value=""></option>
+	</select>
+</form>
+```
+
+ 代码中第 2 行是单行文本输入框、第3 行是多行文本域、第4~7 行是下拉列表框.
+
+| 属性    | 值            | 说明                                                         |
+| ------- | ------------- | ------------------------------------------------------------ |
+| name    | name          | 规定表单的名称                                               |
+| action  | url           | 规定当提交表单时， 向何处发送表单数据                        |
+| method  | get&#124;post | 规定如何发送表单数据。 post 方法主要包含名称／值对， 并且无须包含于action 属性的 URL 中。 get 方法把名称／值对加在 action 的 URL 后面并且把新的 URL 送至服务器， 不推荐使用 |
+| enctype | MIME_type     | 规定表单数据在发送到服务器之前应该如何编码                   |
+
+### 表单定义域和域标题
+
+```html
+<form>
+	<fieldset>
+		<legend align="left|center|right">域标题内容</legend>
+	</fieldset>
+</form>
+```
+
+### 表单信息输入
+
+```html
+<input name="" type=""/> 
+```
+
+| 属性 | 值                                                           | 说明                                                         |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| name | name                                                         | 定义 input 元素的名称                                        |
+| type | text&#124;password&#124;checkbox&#124;radio&#124;image&#124;submit&#124;reset&#124;button&#124;file &#124;hidden | 规定 input 元素的类型。 text单行文本输入框；password:密码输入框；checkbox复选框；radio单选按钮；image 图像按钮；submit提交按钮；reset 重置按钮； button普通按钮；file文件选择框；hidden 隐藏框 |
+
+### 单行文本输入框
+
+```html
+<input name="" type="text" maxlength="" size="" value="" readonly /> 
+```
+
+| 属性      | 值             | 说明                                        |
+| --------- | -------------- | ------------------------------------------- |
+| name      | name           | 定义 input 元素的名称                       |
+| maxlength | number         | 规定输入字段中的字符的最大长度              |
+| size      | number_of_char | 定义输入字段的宽度。 其值小于或等于最大长度 |
+| value     | value          | 规定 input 元素的默认值                     |
+| readonly  | readonly       | 规定文本框中内容只读， 不能修改和编辑       |
+
+### 密码输入框
+
+```html
+<input name="" type="password" maxlength="" size=""/>
+```
+
+| 属性      | 值             | 说明                                        |
+| --------- | -------------- | ------------------------------------------- |
+| name      | name           | 定义 input 标记的名称                       |
+| maxlength | number         | 规定输入字段中的字符的最大长度              |
+| size      | number_of_char | 定义输入字段的宽度。 其值小于或等于最大长度 |
+
+### 复选框
+
+```html
+<input name="" type="checkbox" value="" checked="checked"/> 
+```
+
+| 属性    | 值      | 说明                  |
+| ------- | ------- | --------------------- |
+| name    | name    | 定义 input 标记的名称 |
+| value   | value   | 规定 input 标记的值   |
+| checked | checked | 预先选定复选框        |
+
+### 单选桉钮
+
+```html
+<input name="" type="radio" value="" checked="checked"/>
+```
+
+| 属性    | 值      | 说明                  |
+| ------- | ------- | --------------------- |
+| name    | name    | 定义 input 标记的名称 |
+| value   | value   | 规定 input 标记的值   |
+| checked | checked | 预先选定单选按钮      |
+
+### 图像桉钮
+
+```html
+<input name="" type="image" src="" width="" height=""/> 
+```
+
+| 属性   | 值     | 说明                               |
+| ------ | ------ | ---------------------------------- |
+| name   | name   | 定义input标记的名称                |
+| src    | URL    | 定义以提交按钮形式显示的图像的 URL |
+| width  | width  | 规定图像的宽度， 单位为像素        |
+| height | height | 规定图像的高度， 单位为像素        |
+
+### 提交桉钮
+
+```html
+<input name="" type="submit" value=“提交”/>
+```
+
+| 属性  | 值    | 说明                  |
+| ----- | ----- | --------------------- |
+| name  | name  | 定义 input 标记的名称 |
+| value | value | 规定 input 标记的值   |
+
+### 重置桉钮
+
+```html
+<input name="" type="reset" value="">
+```
+
+| 属性  | 值    | 说明                  |
+| ----- | ----- | --------------------- |
+| name  | name  | 定义 input 标记的名称 |
+| value | value | 规定 input 标记的值   |
+
+### 普通按钮
+
+```html
+<input name="" type="button" value="" onclick=""/> 
+```
+
+| 属性    | 值       | 说明                                        |
+| ------- | -------- | ------------------------------------------- |
+| name    | name     | 定义 input 标记的名称                       |
+| value   | value    | 规定 input 标记的值                         |
+| onclick | 事件代码 | 绑定事件代码、 自定义函数或直接使用脚本代码 |
+
+### 文件选择桓
+
+```html
+<input name="" type="file"> 
+```
+
+### 隐藏桓
+
+```html
+<input name="" type="hidden" value="" />
+```
+
+| 属性  | 值    | 说明                  |
+| ----- | ----- | --------------------- |
+| name  | name  | 定义 input 标记的名称 |
+| value | value | 规定 input 标记的值   |
+
+### 多行文本输入框
+
+```html
+<textarea name="" rows="" cols="" wrap=""/>初始信息内容</textarea>
+<textarea rows="" cols="" wrap="soft|hard"></textarea><!-- HTML5定义－－＞
+```
+
+| 属性 | 值                                       | 说明                                                         |
+| ---- | ---------------------------------------- | ------------------------------------------------------------ |
+| name | name                                     | 定义textarea标记的名称                                       |
+| rows | number                                   | 规定文本区内的可见行数                                       |
+| cols | number                                   | 规定文本区内的可见宽度                                       |
+| wrap | wrap&#124;virtual&#124;physical&#124;off | wrap属性规定当在表单中提交时，文本区域中的文本如何换行 wrap——文本区会包含一行文本，用户必须将光标移动到右边才能看到全部文本， 这时将把一行文本传送给服务器；virual——将实现文本区内的 自动换行，但在传输给服务器时，文本只在用户按下Enter键的地方进 行换行，其他地方没有换行的效果；physical——将实现文本区内的自动换行，并以这种形式传送给服务器； off——不会自动换行，输入内容超出 文本域右界时，文本将向左滚动，必须按Enter键才能将插入点移到下 一行。 HTML5中，soft表示提交时不换行，hard表示提交时换行 |
+
+### 下拉列表框
+
+```html
+<select name="" size="" multiple>
+	<option value="" selected>文字信息</option>
+	<option value=""></option>
+	...
+</select>
+```
+
+| 标记名称 | 属性     | 值       | 说明                           |
+| -------- | -------- | -------- | ------------------------------ |
+| select   | name     | name     | 定义 select 标签的名称         |
+| select   | size     | number   | 规定下拉列表框中可见选项的数目 |
+| select   | multiple | multiple | 规定可选择多个选项             |
+| option   | value    | value    | 规定列表项的值                 |
+| option   | selected | selected | 设置预选列表项                 |
+
