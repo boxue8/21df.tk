@@ -43,6 +43,7 @@ module.exports = {
       '/html/4.md',
       '/html/5.md',
       '/html/6.md',
+      '/html/7.md',
     ],
     // Logo 图片
     logo: '/logo.svg',
@@ -67,6 +68,10 @@ module.exports = {
       },
       pwa: {
 
+      },
+      mdEnhance: {
+        // 添加选项卡支持
+        tabs: true,
       },
     },
   }),
