@@ -1,3 +1,6 @@
+::: tip
+[本页内容摘抄自该扫描件](https://45q2g4d2eg.k.topthink.com/@html/1.html)
+:::
 # HTML
 
 ### 标题字标记
