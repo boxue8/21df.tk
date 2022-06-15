@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "4932635",
+      "name": "云端下载",
+      "font_class": "yunduanxiazai",
+      "unicode": "ec1d",
+      "unicode_decimal": 60445
+    },
+    {
+      "icon_id": "5838827",
+      "name": "重点项目",
+      "font_class": "zhongdianxiangmu",
+      "unicode": "e87a",
+      "unicode_decimal": 59514
+    },
+    {
       "icon_id": "6263341",
       "name": "预览",
       "font_class": "yulan",

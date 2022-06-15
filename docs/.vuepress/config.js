@@ -48,6 +48,16 @@ module.exports = {
         link: 'https://html.21df.tk/',
         icon: 'iconfont icon-yulan',
       },
+      {
+        text: '重点内容下载',
+        link: 'https://xieshibo.lanzouu.com/ig48l06gconc',
+        icon: 'iconfont icon-zhongdianxiangmu',
+      },
+      {
+        text: '全部案例下载',
+        link: 'https://xieshibo.lanzouu.com/ire5f06gbzwb',
+        icon: 'iconfont icon-yunduanxiazai',
+      },
     ],
     // 侧边栏配置
     sidebar: [
