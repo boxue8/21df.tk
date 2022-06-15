@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3466893 */
+  /* Color fonts */
+  src: 
+       url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAATQAAwAAAAACQgAAASDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIkojHgZgAFQKikCIGAE2AiQDIgsgAAQgBYF8ByAb6wbIrrApw71IliUt7jw3utmmsWG++s8JjSCiNasGQrM5IJKsgCVIAPLHnXsJiPbUK3JAKN+9zqUtXZmlMwCg3gBwsvnOCAl3LpMuPL0cACoJusAGXEQa8DD2/4977/t+932xSV2NGJRW4dMXitsckvLSh6J4+tzZVj/tmYHgMv/383lrHvg7vgAq9KqgdxdRtDPaGQ14YBGJ8Um+hXl19qTEBfg6nQlYIBYoBaMBhXFElpt8GIwLovADAQju0YQwOBQeEAZimlrANuFHYFFyymTI/zdgLagD4MPqQw4FoNOOoqYhQFWDbhW/+5uu7uwkuAX5f5tG/BcwAgIoAI1+ApDPPhoMkDx1trWo0Dw99oRFtvF/ZJ+1nzfemtEgMiP91HDKLLzDciaJo/m5AFmAug3ocGaLnSqPS8ziuQD8KHyajdVNTExOSU2Jj4+tiHWYNiepwnpmwbVhOq9ONmnbO9TuEkndvH2g2WnYbVJSHAHOQVKKCjXxUbF8RZi2uIRdIb2waGdMthGcGiNdEsQaXU+Qm3hPapA0EYT0BnbFhkXDbYKI1KmrcFC+AA8l2rcxyN2WIxWMCAn6rKW43UOiygaoLfXASn9FtrsSRZQRRVfpIHLsT7kDucl05Mfd3RMBNaUyUWeVBFAC5CjLcCFW75SibFXxS63tDYm1l2I9yooiDJIT6uQnU8UmEyeNRsib8cCJVCL3jU6aTBSbTldOTPZM0DHtOknUB+XOmAANt42zlWQ0JdeEKGdug1i7OmpdCVivxUDPcaOmnV5i1ArqaQ0zEUQbd0BLiQloJkhB5C385dYm+7VGUByPuYhjdulBZFtsKFeg2UjQQr1piYzfhr5AXGXhB0fejJ+qi3/vB+LOL1P6ixFNY/cKCb0fnkb36pkITfeH4lCq6teK3wejy+7kMX04DL2kmFNmMTvkKGL+GXY45OYQwRxT3A9GOHcdGl9uDU0VY6R408xhK5N1AR4OQnz+qz4w5eA65CDuWNWmwssHIQ4P9EV7sJcSBxsND5REg0MGJOZIw7/lvJZ9DDDF6McaOE1bwj9GROizkRuBEFT0OY4XXrNHJqajEjOMDi6Vc4H3FfO0vBBGn8DoFfIFBSFSPIUE2oNCmvQwnMqzib7ExL6UFNnfl5jyTE3mgcpg72BYAEzbGqAzIHpUFIYSTTC14/q1dc8NDZLwmncKET+KzIR3nq49iV7BWK+/qU9GKxM1rN+OVgue6qx+SI9pqcYdSq+ebzZvLU++sZz+168/5MJnfEVUnbPi5dkNohRvGDIgusHqkIdeGuwzhqXq820EHnRlaU4fWyV/7XHBw3eds5uR/a7xYkRW/z/zGRj6eqfS2qZFRQtGgKtcN+B+vbgVe1u+NJwqnIJoTTtAs53ezQK/AU4ZHWiuzoSjD7VJVGT7/HShjLIYFPFAYNLEnriADHVYQ5Z8CiEfmfRv85PPKnM00EUnVF/XTz5NKBignTp68cMbXx6KIJscKUryKlbv5HWqWETN1lRMk7b00YJW2wHq6lSjDBsYvczfhAM=') format('woff2'),
+       url('iconfont.woff?t=1655275678977') format('woff'),
+       url('iconfont.ttf?t=1655275678977') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-yulan:before {
+  content: "\e668";
+}
+
+.icon-yuandaima:before {
+  content: "\e60f";
+}
+
+.icon-shouye:before {
+  content: "\e6cb";
+}
+
+.icon-saomiao:before {
+  content: "\e616";
+}
+

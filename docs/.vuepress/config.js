@@ -4,7 +4,7 @@ const { docsearchPlugin } = require('@vuepress/plugin-docsearch')
 // 站点配置
 module.exports = {
   shouldPrefetch: false,
-  head: [['link', { rel: 'stylesheet', href: '//at.alicdn.com/t/font_3376797_ykbav7d1di.css' }]],
+  head: [['link', { rel: 'stylesheet', href: '/iconfont/iconfont.css' }]],
   // 站点语言
   lang: 'zh-CN',
   // 站点标题
@@ -32,6 +32,21 @@ module.exports = {
         text: '首页',
         link: '/',
         icon: 'iconfont icon-shouye',
+      },
+      {
+        text: '课本扫描件',
+        link: 'https://45q2g4d2eg.k.topthink.com/@html/1.html',
+        icon: 'iconfont icon-saomiao',
+      },
+      {
+        text: '效果源码',
+        link: 'https://gitlab.com/daanzs/html',
+        icon: 'iconfont icon-yuandaima',
+      },
+      {
+        text: '效果预览',
+        link: 'https://html.21df.tk/',
+        icon: 'iconfont icon-yulan',
       },
     ],
     // 侧边栏配置
