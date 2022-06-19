@@ -1,38 +1,38 @@
-name: 部署文档
+name: Deploy V2 Docs
 
 on:
   push:
     branches:
-      # 确保这是你正在使用的分支名称
       - main
 
 jobs:
   deploy-gh-pages:
+    name: Deploy V2 docs to gh pages
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          # 如果你文档需要 Git 子模块，取消注释下一行
-          # submodules: true
 
       - name: Install pnpm
         uses: pnpm/action-setup@v2
         with:
           version: 7
-          run_install: true
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 16
           cache: pnpm
+          
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
 
-      - name: Build Docs
+      - name: Docs build
         env:
-          NODE_OPTIONS: --max_old_space_size=8192
-        run: pnpm docs:build
+          NODE_OPTIONS: --max_old_space_size=4096
+        run:  pnpm docs:build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
