@@ -1,58 +1,39 @@
-name: Deploy Docs
+name: 部署文档
 
 on:
   push:
     branches:
+      # 确保这是你正在使用的分支名称
       - main
 
 jobs:
   deploy-gh-pages:
-    name: Deploy V2 docs to gh pages
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
+          # 如果你文档需要 Git 子模块，取消注释下一行
+          # submodules: true
 
-      - uses: actions/setup-node@v3
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
         with:
-          node-version: "16"
+          version: 7
+          run_install: true
 
-      - name: restore lerna
-        uses: actions/cache@v3
-        id: lerna-cache
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          path: |
-            node_modules
-            **/node_modules
-          key: ${{ runner.os }}-lerna-${{ hashFiles('yarn.lock') }}
+          node-version: 16
+          cache: pnpm
 
-      - name: Get yarn cache directory path
-        if: steps.lerna-cache.outputs.cache-hit != 'true'
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-
-      - name: yarn-cache
-        if: steps.lerna-cache.outputs.cache-hit != 'true'
-        uses: actions/cache@v3
-        id: yarn-cache
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-      - name: Install Deps
-        if: steps.lerna-cache.outputs.cache-hit != 'true'
-        run: yarn install --frozen-lockfile
-
-      - name: Docs build
+      - name: Build Docs
         env:
-          BASE: /21dfsource/
-          HOSTNAME: https://www.21df.tk
-          NODE_OPTIONS: --max_old_space_size=4096
-        run: yarn run docs:build
-      
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: pnpm docs:build
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
